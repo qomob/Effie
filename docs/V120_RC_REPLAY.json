@@ -1,0 +1,90 @@
+[
+  {
+    "name": "baseline_repeated_fact_every_field",
+    "expected": "manual review only; content completeness not established",
+    "status": "HUMAN_REVIEW_REQUIRED",
+    "failed_gates": [],
+    "submission_authorized": false,
+    "details": {}
+  },
+  {
+    "name": "arbitrary_provider_forged_record",
+    "expected": "provenance unknown",
+    "status": "HUMAN_REVIEW_REQUIRED",
+    "failed_gates": [],
+    "submission_authorized": false,
+    "details": {}
+  },
+  {
+    "name": "metric_label_contains_unverified_claim",
+    "expected": "block semantic injection",
+    "status": "BLOCKED",
+    "failed_gates": [],
+    "submission_authorized": false,
+    "details": {}
+  },
+  {
+    "name": "out_of_campaign_period",
+    "expected": "flag time mismatch",
+    "status": "BLOCKED",
+    "failed_gates": [],
+    "submission_authorized": false,
+    "details": {}
+  },
+  {
+    "name": "contradictory_sources_same_scope_period",
+    "expected": "block unresolved contradiction",
+    "status": "BLOCKED",
+    "failed_gates": [],
+    "submission_authorized": false,
+    "details": {}
+  },
+  {
+    "name": "goal_without_target",
+    "expected": "flag missing objective target",
+    "status": "HUMAN_REVIEW_REQUIRED",
+    "failed_gates": [],
+    "submission_authorized": false,
+    "details": {}
+  },
+  {
+    "name": "same_authorization_file_twice",
+    "expected": "manual review only",
+    "status": "HUMAN_REVIEW_REQUIRED",
+    "failed_gates": [],
+    "submission_authorized": false,
+    "details": {}
+  },
+  {
+    "name": "record_followed_by_disclaimer",
+    "expected": "block selective quote",
+    "status": "BLOCKED",
+    "failed_gates": [],
+    "submission_authorized": false,
+    "details": {}
+  },
+  {
+    "name": "legitimate_natural_language_metric",
+    "expected": "manual extraction route; no automatic certification",
+    "status": "NEEDS_EVIDENCE",
+    "failed_gates": [
+      "G05",
+      "G06",
+      "G10"
+    ],
+    "submission_authorized": false,
+    "details": {
+      "G05": "C1: 数字事实需可解析原始记录；不接受自报数字或单位",
+      "G06": "M1: 指标必须绑定完整原始记录，缺分母/基线不得自动通过",
+      "G10": "G05 未通过；G06 未通过"
+    }
+  },
+  {
+    "name": "metric_omitted_from_all_answers",
+    "expected": "flag missing structured KPI context",
+    "status": "HUMAN_REVIEW_REQUIRED",
+    "failed_gates": [],
+    "submission_authorized": false,
+    "details": {}
+  }
+]

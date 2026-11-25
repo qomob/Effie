@@ -1,0 +1,87 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Evidence record",
+ "type": "object",
+ "required": [
+  "evidence_id",
+  "file",
+  "locator",
+  "quote",
+  "provider",
+  "metric",
+  "period",
+  "status"
+ ],
+ "properties": {
+  "evidence_id": {
+   "type": "string"
+  },
+  "file": {
+   "type": "string"
+  },
+  "sha256": {
+   "type": "string",
+   "pattern": "^[a-f0-9]{64}$"
+  },
+  "locator": {
+   "type": "string"
+  },
+  "quote": {
+   "type": "string"
+  },
+  "provider": {
+   "type": "string"
+  },
+  "metric": {
+   "type": "string"
+  },
+  "value": {},
+  "unit": {
+   "type": "string"
+  },
+  "scope": {
+   "type": "string"
+  },
+  "period": {
+   "type": "string"
+  },
+  "baseline": {
+   "type": "string"
+  },
+  "formula": {
+   "type": "string"
+  },
+  "status": {
+   "enum": [
+    "VERIFIED",
+    "PARTIALLY_SUPPORTED",
+    "USER_ASSERTED",
+    "UNVERIFIED",
+    "CONTRADICTED",
+    "MISSING"
+   ]
+  },
+  "level": {
+   "enum": [
+    "audited",
+    "experiment",
+    "model",
+    "third_party_research",
+    "platform_data",
+    "internal_system",
+    "internal_ppt"
+   ]
+  },
+  "confidentiality": {
+   "enum": [
+    "low",
+    "medium",
+    "high",
+    "secret"
+   ]
+  },
+  "publication_cleared": {
+   "type": "boolean"
+  }
+ }
+}

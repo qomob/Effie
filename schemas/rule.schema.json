@@ -1,0 +1,78 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Effie rule record",
+ "type": "object",
+ "required": [
+  "rule_id",
+  "competition_year",
+  "award_id",
+  "rule_type",
+  "rule_value",
+  "source_document",
+  "source_sha256",
+  "verification_status",
+  "enforcement_level"
+ ],
+ "properties": {
+  "rule_id": {
+   "type": "string"
+  },
+  "competition_year": {
+   "type": "integer"
+  },
+  "award_id": {
+   "type": "string"
+  },
+  "category_scope": {
+   "type": "string"
+  },
+  "rule_type": {
+   "type": "string"
+  },
+  "rule_value": {},
+  "effective_date": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "source_document": {
+   "type": "string"
+  },
+  "source_page": {
+   "type": [
+    "integer",
+    "null"
+   ]
+  },
+  "source_quote": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "source_sha256": {
+   "type": "string"
+  },
+  "verification_status": {
+   "enum": [
+    "VERIFIED",
+    "UNVERIFIED",
+    "MISSING",
+    "CONFLICT",
+    "EXPIRED"
+   ]
+  },
+  "enforcement_level": {
+   "enum": [
+    "official_mandatory",
+    "official_advisory",
+    "internal_standard",
+    "ai_inference"
+   ]
+  },
+  "note": {
+   "type": "string"
+  }
+ }
+}

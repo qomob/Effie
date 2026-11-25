@@ -1,0 +1,57 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Metric record",
+ "type": "object",
+ "required": [
+  "metric_id",
+  "name",
+  "value",
+  "unit",
+  "period"
+ ],
+ "properties": {
+  "metric_id": {
+   "type": "string"
+  },
+  "name": {
+   "type": "string"
+  },
+  "value": {},
+  "unit": {
+   "type": "string"
+  },
+  "period": {
+   "type": "string"
+  },
+  "baseline": {
+   "type": "string"
+  },
+  "baseline_type": {
+   "enum": [
+    "own_history",
+    "category",
+    "competitor",
+    "none"
+   ]
+  },
+  "denominator": {
+   "type": "string"
+  },
+  "formula": {
+   "type": "string"
+  },
+  "source": {
+   "type": "string"
+  },
+  "goal_id": {
+   "type": "string"
+  },
+  "stated_as": {
+   "enum": [
+    "growth",
+    "level",
+    "sum"
+   ]
+  }
+ }
+}

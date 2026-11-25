@@ -1,0 +1,83 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Effie category",
+ "type": "object",
+ "required": [
+  "category_id",
+  "number",
+  "name_zh",
+  "kind",
+  "definition_zh",
+  "verification_status"
+ ],
+ "properties": {
+  "category_id": {
+   "type": "string"
+  },
+  "number": {
+   "type": "integer",
+   "minimum": 1
+  },
+  "name_zh": {
+   "type": "string"
+  },
+  "name_en": {
+   "type": "string"
+  },
+  "kind": {
+   "enum": [
+    "industry",
+    "specialty"
+   ]
+  },
+  "section_id": {
+   "type": "string"
+  },
+  "section_zh": {
+   "type": "string"
+  },
+  "track_id": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "track_zh": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "definition_zh": {
+   "type": "string"
+  },
+  "definition_shared_with": {
+   "type": [
+    "integer",
+    "null"
+   ]
+  },
+  "special_rules": {
+   "type": "array"
+  },
+  "judging_dimensions": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "source": {
+   "type": "object"
+  },
+  "verification_status": {
+   "enum": [
+    "VERIFIED",
+    "PARTIAL",
+    "MISSING"
+   ]
+  },
+  "enforcement_level": {
+   "type": "string"
+  }
+ }
+}

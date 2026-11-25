@@ -1,0 +1,75 @@
+{
+  "_note": "SYNTHETIC 合成示例，用于演示 case.json 的正确结构。不是真实项目，不是获奖案例。",
+  "case_id": "DEMO-001",
+  "competition_year": 2026,
+  "award_id": "EFFIE_GC_MAIN",
+  "form": "通用",
+  "brand": "示例品牌",
+  "brand_en": "Example Brand",
+  "product": "示例产品",
+  "industry": "个人护理",
+  "category_numbers": [1, 42, 46],
+  "implementation_start": "2025-03-01",
+  "implementation_end": "2025-12-31",
+  "region": "GREATER_CHINA",
+  "budget_range": "1201万-3000万元",
+  "goals": [
+    {"goal_id": "G1", "type": "business", "kpi": "市场份额 +1.5 个百分点"},
+    {"goal_id": "G2", "type": "marketing", "kpi": "新客占比从 34% 提升至 45%"}
+  ],
+  "metrics": [
+    {"metric_id": "M1", "name": "市场份额", "value": "+1.5", "unit": "百分点",
+     "period": "2025-03-01~2025-12-31", "baseline": "16.2%",
+     "baseline_type": "category", "denominator": "品类销售额",
+     "formula": "品牌销售额 / 品类销售额", "goal_id": "G1", "stated_as": "level",
+     "source": "第三方零售监测"},
+    {"metric_id": "M2", "name": "新客占比", "value": "46", "unit": "%",
+     "period": "2025-03-01~2025-12-31", "baseline": "34%",
+     "baseline_type": "own_history", "denominator": "总购买人数",
+     "goal_id": "G2", "stated_as": "level", "source": "品牌CRM"}
+  ],
+  "narrative_flags": {"claims_causality": false, "has_control_or_model": false},
+  "evidence": [
+    {"evidence_id": "E-001", "file": "nielsen_2025Q4.pdf", "locator": "p.14 表3",
+     "quote": "品类销售额同比 +12.1%；本品牌份额 16.2% → 17.7%",
+     "provider": "第三方零售监测", "metric": "市场份额", "value": "17.7",
+     "unit": "%", "period": "2025-03~2025-12", "baseline": "16.2%",
+     "status": "VERIFIED", "level": "third_party_research",
+     "confidentiality": "low", "publication_cleared": true},
+    {"evidence_id": "E-002", "file": "crm_export_2025.xlsx", "locator": "Sheet1!B2:D48",
+     "quote": "新客数 132,400；总购买人数 287,800",
+     "provider": "品牌CRM", "metric": "新客占比", "value": "46", "unit": "%",
+     "period": "2025-03~2025-12", "baseline": "34%",
+     "status": "VERIFIED", "level": "internal_system",
+     "confidentiality": "high", "publication_cleared": false}
+  ],
+  "claims": [
+    {"claim_id": "C-01", "text": "市场份额提升 1.5 个百分点", "type": "CALC",
+     "evidence_ids": ["E-001"], "value": "17.7", "unit": "%",
+     "period": "2025-03~2025-12",
+     "formula": "17.7% - 16.2% = 1.5pt"},
+    {"claim_id": "C-02", "text": "新客占比提升至 46%", "type": "CALC",
+     "evidence_ids": ["E-002"], "value": "46", "unit": "%",
+     "period": "2025-03~2025-12",
+     "formula": "132,400 / 287,800 ≈ 46%"}
+  ],
+  "attribution": {
+    "claimed_conclusion": "B",
+    "methods": ["yoy", "category_benchmark"],
+    "confounders_addressed": ["seasonality", "category_growth", "price_promo",
+                              "channel_expansion", "organic_growth"],
+    "section_4_2_text": "活动期品类整体增长 12.1%，本品牌增长 21.4%，份额提升 1.5pt；同期无价格调整，铺货率稳定；618 大促期间已单独拆分该时段贡献。",
+    "has_parallel_campaigns": false
+  },
+  "creative_video": {"duration_seconds": 172, "size_mb": 44, "format": "mp4",
+                     "has_agency_name": false},
+  "creative_print": [{"size_mb": 7.2, "has_agency_name": false}],
+  "authorization": {
+    "client_authorized": true,
+    "agreement_signed": true,
+    "publication_option": "as_submitted",
+    "rights_cleared": ["TVC 主片", "户外画面", "KOL 内容"]
+  },
+  "open_p0_issues": [],
+  "open_p1_issues": []
+}

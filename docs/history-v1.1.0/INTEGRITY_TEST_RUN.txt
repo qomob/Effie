@@ -1,0 +1,34 @@
+test_bad_form (__main__.Integrity.test_bad_form) ... ok
+test_bad_locator (__main__.Integrity.test_bad_locator) ... ok
+test_body_injection (__main__.Integrity.test_body_injection) ... ok
+test_budget_scope (__main__.Integrity.test_budget_scope) ... ok
+test_calculation (__main__.Integrity.test_calculation) ... ok
+test_duplicate (__main__.Integrity.test_duplicate) ... ok
+test_duplicate_json (__main__.Integrity.test_duplicate_json) ... ok
+test_empty_placeholder (__main__.Integrity.test_empty_placeholder) ... ok
+test_exact (__main__.Integrity.test_exact) ... ok
+test_fabricated_metric_value (__main__.Integrity.test_fabricated_metric_value) ... ok
+test_final_attack (__main__.Integrity.test_final_attack) ... ok
+test_hash_mismatch (__main__.Integrity.test_hash_mismatch) ... ok
+test_missing_file (__main__.Integrity.test_missing_file) ... ok
+test_missing_root (__main__.Integrity.test_missing_root) ... ok
+test_missing_sha (__main__.Integrity.test_missing_sha) ... ok
+test_missing_status (__main__.Integrity.test_missing_status) ... ok
+test_no_metrics (__main__.Integrity.test_no_metrics) ... ok
+test_placeholder_assets (__main__.Integrity.test_placeholder_assets) ... ok
+test_positive_preflight (__main__.Integrity.test_positive_preflight) ... ok
+test_public_leak (__main__.Integrity.test_public_leak) ... ok
+test_rules_unverified (__main__.Integrity.test_rules_unverified) ... ok
+test_scope (__main__.Integrity.test_scope) ... ok
+test_special_unknown (__main__.Integrity.test_special_unknown) ... ok
+test_symlink (__main__.Integrity.test_symlink) ... ok
+test_traversal (__main__.Integrity.test_traversal) ... ok
+test_unbound (__main__.Integrity.test_unbound) ... ok
+test_unrelated_correct_hash (__main__.Integrity.test_unrelated_correct_hash) ... ok
+test_unsupported_claim (__main__.Integrity.test_unsupported_claim) ... ok
+test_year (__main__.Integrity.test_year) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 9.116s
+
+OK

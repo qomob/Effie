@@ -1,0 +1,108 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Case profile",
+ "type": "object",
+ "required": [
+  "competition_year",
+  "award_id",
+  "brand",
+  "implementation_start",
+  "region",
+  "category_numbers"
+ ],
+ "properties": {
+  "case_id": {
+   "type": "string"
+  },
+  "competition_year": {
+   "type": "integer",
+   "const": 2026
+  },
+  "award_id": {
+   "type": "string"
+  },
+  "form": {
+   "enum": [
+    "通用",
+    "持续成功类"
+   ]
+  },
+  "brand": {
+   "type": "string"
+  },
+  "brand_en": {
+   "type": "string"
+  },
+  "product": {
+   "type": "string"
+  },
+  "industry": {
+   "type": "string"
+  },
+  "category_numbers": {
+   "type": "array",
+   "items": {
+    "type": "integer"
+   },
+   "maxItems": 4
+  },
+  "implementation_start": {
+   "type": "string"
+  },
+  "implementation_end": {
+   "type": "string"
+  },
+  "region": {
+   "enum": [
+    "GREATER_CHINA",
+    "MAINLAND",
+    "HK",
+    "MO",
+    "TW",
+    "OVERSEAS"
+   ]
+  },
+  "budget_range": {
+   "type": "string"
+  },
+  "answers": {
+   "type": "object"
+  },
+  "goals": {
+   "type": "array"
+  },
+  "metrics": {
+   "type": "array"
+  },
+  "evidence": {
+   "type": "array"
+  },
+  "claims": {
+   "type": "array"
+  },
+  "creative_video": {
+   "type": "object"
+  },
+  "creative_print": {
+   "type": "array"
+  },
+  "case_narrative": {
+   "type": "object"
+  },
+  "assets": {
+   "type": "array"
+  },
+  "authorization": {
+   "type": "object"
+  },
+  "versions": {
+   "type": "array"
+  },
+  "open_p0_issues": {
+   "type": "array"
+  },
+  "open_p1_issues": {
+   "type": "array"
+  }
+ }
+}

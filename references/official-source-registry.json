@@ -1,0 +1,821 @@
+{
+ "registry_version": "1.0.0",
+ "competition_year": 2026,
+ "file_count": 81,
+ "total_han_chars": 579201,
+ "total_pdf_pages": 771,
+ "ocr_file_count": 27,
+ "note": "本 Skill 不随包分发官方 PDF/DOCX 原件（版权与保密）。registry 仅记录文件名、SHA-256 与抽取方式，供用户自行核对原始文件。",
+ "files": [
+  {
+   "file": "2024 Effie GC往届金奖案例.pdf",
+   "type": "pdf",
+   "role": "case_archive",
+   "pages": 41,
+   "sha256": "531fcfdded2e80356547b6666e209abf9b5c4ecea06d43d306744eaa35ca56cf",
+   "extraction_method": "pdf-text",
+   "han_chars": 16041,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026_大中华区艾菲奖_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 36,
+   "sha256": "d30a0535ae6dc693654120889078fbfc0ef826411a360fe76e14423d5cbf5ea1",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 15198,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026_大中华区艾菲奖_类别定义.pdf",
+   "type": "pdf",
+   "role": "category_definition",
+   "pages": 25,
+   "sha256": "782b6e5adbcc88c808d78dcc52121db088c3902e9b814c05e1aa0e9d6614260b",
+   "extraction_method": "pdf-text",
+   "han_chars": 18864,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026大中华区艾菲奖_参赛表_持续成功类.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "f3647daca33428aef51c4587100cd53bc652e679907c51940cee2df6ed000a8c",
+   "extraction_method": "docx-native",
+   "han_chars": 11179,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026大中华区艾菲奖_参赛表_通用.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "20fc3dc32ad336945fb01a9f4ae9b773daaafc7a808f3d4a7869f550bf362414",
+   "extraction_method": "docx-native",
+   "han_chars": 10400,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026年度品牌数智经营增量榜单-申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "6f0d0495b6d4ceeb71de64f65204cd0b6f80d6dc5f98a12ea64308451e2fb617",
+   "extraction_method": "docx-native",
+   "han_chars": 1686,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026年度品牌数智经营增量榜单_申报手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 8,
+   "sha256": "7769da551240c24f014f24aecfaaa34f0219a54ac28cfe2d49274ef64daf60c9",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 2032,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲AI奖_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 31,
+   "sha256": "24eecf9fe225bd6eabb2b14cc7d1b2a4b6526659c61ab9f7de5711341a7bc9f7",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 14979,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲AI奖_参赛表_通用.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "31a8e6167b247f8ea2b9e1e8b60756ec8fb2b30cea3937d30a6a2e54fb47b581",
+   "extraction_method": "docx-native",
+   "han_chars": 10293,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲AI电商奖_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 30,
+   "sha256": "4edb40c52fe074f627d6f79a0f52b4ee8b472046bf183981f33e7a4f339ffe95",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 14227,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲AI电商奖_参赛表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "3a839b2b43aedd1c236a96ec9f7a5987be735b4739eec05ea18edf92f787807e",
+   "extraction_method": "docx-native",
+   "han_chars": 11174,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲®年度全域经营创新技术服务商榜单-申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "8989a94f63b1937bf12d999dd5d31e696484ee6b4e03ad6a7ec91cf471cdc86a",
+   "extraction_method": "docx-native",
+   "han_chars": 1610,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲®年度全域经营技术产品榜单-申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "f9cd54e14b0ce3a7dfedd894d334d097e659ebf763717bcb2cbaef22237cd297",
+   "extraction_method": "docx-native",
+   "han_chars": 1610,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲体育与生活方式奖_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 37,
+   "sha256": "2215613987119b598e2fcbe5feb4eafea202cecc5b678645bec3bf1eac64ae92",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 19922,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲体育与生活方式奖_参赛表_持续成功类.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "0136e89a7e0d6b84f948194f03ba8e4b71e4fbe9b93b9f9ea72e202a4e497519",
+   "extraction_method": "docx-native",
+   "han_chars": 11251,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲体育与生活方式奖_参赛表_通用.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "f256712c5ec1b7a438813e45b66c6b22c5f73f963506023168015e026135049a",
+   "extraction_method": "docx-native",
+   "han_chars": 10680,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲全球化营销奖_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 63,
+   "sha256": "d4cea1d75fed70b350e9e41486e32a6dddc9b4db6f98b44b615097f56fe6343d",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 17298,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲全球化营销奖_参赛表_通用.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "fe8c3916bb445c2e3e97c5a3deb6e09b33afbbbde0985bb667e9e438e8611027",
+   "extraction_method": "docx-native",
+   "han_chars": 9369,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲公关奖_PRA_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 32,
+   "sha256": "c32fc03623efaea41a41290ef87b25231cbcd2dfe3d673d89467b5aa8e8c334b",
+   "extraction_method": "pdf-text",
+   "han_chars": 13786,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲公关奖_PRA_参赛表_持续成功类.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "a19385ce51675adedbb655f81afb2ff2c750d28adb50c004145a274512be72dc",
+   "extraction_method": "docx-native",
+   "han_chars": 10715,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲公关奖_PRA_参赛表格_通用.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "4f126dec304949cce5d9f240578963a2c4469220c30397ea3e1c0fde9bcecfd6",
+   "extraction_method": "docx-native",
+   "han_chars": 10309,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲公关奖_PRA_类别定义.pdf",
+   "type": "pdf",
+   "role": "category_definition",
+   "pages": 11,
+   "sha256": "6af7d13215d15552187a0e25ecf117a816653b46cf3c3538dd13bbbceae80364",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 8562,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲公关奖_年度公关公司榜单_申报表 (2).docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "18baf7ca50b38f01cd888b6a2cba4435979301ac0f1081fa373f3b83ef5ac139",
+   "extraction_method": "docx-native",
+   "han_chars": 1822,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲公关奖_年度公关公司榜单_申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "a9e87e943e278a49ac46b2fc116bda98b39774ceff61e43bb18883959f08b527",
+   "extraction_method": "docx-native",
+   "han_chars": 1802,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲公关奖_年度品牌声誉榜单_申报表 (2).docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "1e083ddcaffd5a7d23c0aa71e6b9013fb3a0756c487509678adf5f343740b229",
+   "extraction_method": "docx-native",
+   "han_chars": 2326,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲公关奖_年度品牌声誉榜单_申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "a176f636437f52b753fd2f028290acce09678156e0dcf37885e3f46da5530ed8",
+   "extraction_method": "docx-native",
+   "han_chars": 2326,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲公关奖_年度榜单申报手册 (2).pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 8,
+   "sha256": "b1cc2e6a866064d8137401d97afe260e46d8212053b1d3c801f5cec9bb0652ca",
+   "extraction_method": "pdf-text",
+   "han_chars": 1949,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲公关奖_年度榜单申报手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 8,
+   "sha256": "72575a418cbf5634bded0bb72afb8f5a87a34d442afcf4560a1bb3d76d6719fc",
+   "extraction_method": "pdf-text",
+   "han_chars": 1939,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲可持续发展奖_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 30,
+   "sha256": "71f000da6e4a95c886c4c1451f0a4a96ffbb7246e62d43d1ce36cc7092827582",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 13228,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲可持续发展奖_参赛类别.pdf",
+   "type": "pdf",
+   "role": "category_definition",
+   "pages": 12,
+   "sha256": "8daa41fb9ba8101b7201ad7a0ab7e441038dd3f29d5092c65447264ed752e04f",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 7766,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲可持续发展奖_参赛表_持续成功类.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "7f553fc71a8b387b46c65a157989235299eeb13dd959653fb6143389369319c4",
+   "extraction_method": "docx-native",
+   "han_chars": 10889,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲可持续发展奖_参赛表_通用.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "5c4845fa9cb877f453836d7613c10b873358cc380db010886e19f8b0da541e68",
+   "extraction_method": "docx-native",
+   "han_chars": 10661,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲可持续发展榜单_申报手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 8,
+   "sha256": "f65b949a8d0b324e5fc1b551d09b9cf80d982aa3376dc8a1dc56fe3f0008f403",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 2238,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲可持续发展榜单_申报表_年度CSR项目.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "8cda9190ed8aad4c5c081ce0969302cf86b7ef25ce3946849c46c46cf9067cb2",
+   "extraction_method": "docx-native",
+   "han_chars": 3491,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲可持续发展榜单_申报表_年度ESG企业.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "81e9446e87395b2dd8b8ae107e03cc6b88e49e61e42411bcf71fe47c58ba5a12",
+   "extraction_method": "docx-native",
+   "han_chars": 2539,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲场景营销奖_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 36,
+   "sha256": "cf10e23dc3dec2b84b4bd781679bc624ab2a56169ba08366d6ac8c844de8d35b",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 17324,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲场景营销奖_参赛表_持续成功类.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "974cbed5b1b61e1343dae681ba2fd7532c825685f20859ce5c2eafbb05aaca9b",
+   "extraction_method": "docx-native",
+   "han_chars": 9192,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲场景营销奖_参赛表_通用版.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "0ced449c72c80c9d30dcadc497b78b81ac08bfb6d7ef300df9aadc8a90e5cbd0",
+   "extraction_method": "docx-native",
+   "han_chars": 9096,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲场景营销奖_类别定义.pdf",
+   "type": "pdf",
+   "role": "category_definition",
+   "pages": 15,
+   "sha256": "63b7921ce92398ffb079b57d8e74f8111b99c29485fd2ed4792e4f386b604fc9",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 7181,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲大健康奖_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 38,
+   "sha256": "86fa9351ae37394b2f20c3643733241c6c0ada12cf47f733cf5e713a7d6a3b04",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 20227,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲大健康奖_参赛表_持续成功类.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "363f4ff482d2db798a71f7688879d0dc228ba40e602bb128fd5babe7e5a3c4dc",
+   "extraction_method": "docx-native",
+   "han_chars": 11239,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲大健康奖_参赛表_通用.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "c7b4090836a9c6b771e2db7278cc4718f4aee925a4542b2c53c99f8d2ea3f34a",
+   "extraction_method": "docx-native",
+   "han_chars": 10678,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲奖CXO俱乐部-年度人物榜单_申报手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 15,
+   "sha256": "e625e0f8ca288812ad3ead77628d2d2d5aba6e911d5bc254bdd3a925be68a903",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 2960,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲奖CXO俱乐部-年度创新营销人物榜单申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "7e62ff0d89d58e4a237e38b1ab2b87ecf5b7508be8cc2c9f4ef289fc58f0de49",
+   "extraction_method": "docx-native",
+   "han_chars": 1077,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲奖CXO俱乐部-年度品牌人物榜单申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "94b5be03afaf649071b895a459bb567ec327e53e6743b5d870241feeea3a9a9f",
+   "extraction_method": "docx-native",
+   "han_chars": 972,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲奖CXO俱乐部-年度商业营销人物榜单申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "c48dd3e7fd5a6fad4a5ce1ad0bfdddd5415542e57499bfbe076b0418ca93fd8e",
+   "extraction_method": "docx-native",
+   "han_chars": 938,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲奖CXO俱乐部-年度新锐人物榜单申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "399a4f1ddd0153233a51eebe173323dabe95618102ca1096c991ca9b8234fd12",
+   "extraction_method": "docx-native",
+   "han_chars": 1047,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲奖CXO俱乐部-年度最具商业价值KOL榜单申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "01c21e9f3768d88c90a87acebe6947ef24a7f42bab00695fa1824236a436ac44",
+   "extraction_method": "docx-native",
+   "han_chars": 1160,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲年度人工智能标杆企业榜单_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 6,
+   "sha256": "6fd7f8895f4e232e0ad3f2f69d335bf096816edfb4ef48aacb32fff4b3eee18f",
+   "extraction_method": "pdf-text",
+   "han_chars": 1236,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲年度人工智能标杆企业榜单_申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "21a657abf6928ebaf2e7f1210b43af3684dc7359126f38be2d8186747e9bd42b",
+   "extraction_method": "docx-native",
+   "han_chars": 977,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲年度体育创新IP榜单_申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "858ec2b0fd45d6f40d188f62b744384235c139f42a428847264924f85cf6c87d",
+   "extraction_method": "docx-native",
+   "han_chars": 1518,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲年度体育创新品牌榜单_申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "1235b5dd03763ef2e8f0e794de56e465f81e777d07250c96f610f113899cfce4",
+   "extraction_method": "docx-native",
+   "han_chars": 1875,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲年度体育媒体榜单_申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "a631942aaa46e59f2929634c040e0c61d106846d3029284fdfc2223654da05c7",
+   "extraction_method": "docx-native",
+   "han_chars": 1779,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲年度体育系列榜单_申报手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 8,
+   "sha256": "f987211a1bfa52c9ee89081ef171c209652c88c69a519ac890a4815f8a210a8f",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 2266,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲年度全域经营系列榜单 _申报手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 8,
+   "sha256": "03b8a468fe945de6283dbd94906fb47fec43b74900370841ffba2f6595d891c5",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 2138,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲年度大健康创新品牌榜单_申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "756fc688d7a558a3d7a116c6c18b8848ca8ceee2c0777cff1d861d53df95fe79",
+   "extraction_method": "docx-native",
+   "han_chars": 2388,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲年度大健康新锐代理商榜单_申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "591e4a2f0be9d91cf45296fb80e6fc60e4c6d81d72005c5621d04a69f932a4b6",
+   "extraction_method": "docx-native",
+   "han_chars": 2230,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲年度大健康服务机构榜单_申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "b292410256b052d0c8608a815873f284dc3e79f15e05410eec0e409a8dd2c2ff",
+   "extraction_method": "docx-native",
+   "han_chars": 2489,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲年度大健康系列榜单_申报手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 8,
+   "sha256": "e104a535d9dd324a3f22d259feb73fe1c9273856f0d4b55fd1a30ff0225163b7",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 2130,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲年度文旅融合系列榜单_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 6,
+   "sha256": "7004699de929fe4032d77b4af38ebdf237416ef7187238e3357a0c4257c531d3",
+   "extraction_method": "pdf-text",
+   "han_chars": 1531,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲年度文旅融合系列榜单_申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "3ff06d809e71b2140559001843ffd85c03476d2885f73af1a1b87c8952ca67aa",
+   "extraction_method": "docx-native",
+   "han_chars": 924,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲数字创新奖_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 31,
+   "sha256": "a1321e08783455ff55f2aac3f79ef255d291f199c3250963c64ac19e2feab997",
+   "extraction_method": "pdf-text",
+   "han_chars": 13161,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲数字品牌创新榜_参赛指南.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 11,
+   "sha256": "34550ba4c71cc12b84b614310932889d3506339cd64102b92ebe0190160b5ca5",
+   "extraction_method": "pdf-text",
+   "han_chars": 1383,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲数字品牌创新榜申报表.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "0a479b3bfae64613f7d9291e613abd532852a396c9064a61f2b7619854abace3",
+   "extraction_method": "docx-native",
+   "han_chars": 817,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲文旅奖_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 29,
+   "sha256": "38fcf9905ea354a65f5ad9a7ef2c8a725181d132c1577dfd00523c0f0b738c8c",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 13124,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲文旅奖_参赛指南.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 13,
+   "sha256": "499147f7500d09e8c51c9e22ef59dce97df2ff9fde8590f7e77ddfff8a0b9750",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 3066,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲文旅奖_参赛表_持续成功.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "3b2decb0f3941a7557724c4a341034d046ff21df95c5c44423886c4cd038c977",
+   "extraction_method": "docx-native",
+   "han_chars": 11131,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲文旅奖_参赛表_通用.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "f416031fa6972e2279f0878f0fc02a499f969f2bea39274dc45a6436b2dab6d8",
+   "extraction_method": "docx-native",
+   "han_chars": 10298,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲文旅奖_类别定义.pdf",
+   "type": "pdf",
+   "role": "category_definition",
+   "pages": 11,
+   "sha256": "b03d533eaa82b125b6e4e1619d931cef01fafed22f23c60f22dc72e476e60fcd",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 7129,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲汽车奖_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 42,
+   "sha256": "92565b9a1a6c1e34253d8e9330dd14fcf732ae9cb800e11d8f03c6b06987749f",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 20195,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲汽车奖_参赛指南.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 19,
+   "sha256": "b7561835eb533be0eb93d67a0dc8b3aaabe763793e5f1d1e3a4364f7cd997499",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 5459,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲汽车奖_参赛表_持续成功类.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "80dd2098ca0e96479a8d5fc824f14c9b74297bfc456592f635d8c139763ea80d",
+   "extraction_method": "docx-native",
+   "han_chars": 9149,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲汽车奖_参赛表_通用.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "8458e2bbf57c69386afaaef1d1261e9cfeaae2f610acc63b22c8389ac666c0a9",
+   "extraction_method": "docx-native",
+   "han_chars": 9099,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲汽车奖_类别定义.pdf",
+   "type": "pdf",
+   "role": "category_definition",
+   "pages": 17,
+   "sha256": "fcf3ca7273d347ef48bdfe2b538f0b057792436b2895bb51aa592abe4eced1c2",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 8170,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲视频营销奖_参赛手册.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 39,
+   "sha256": "68e5fd7c70629734e91bcc012095c5cd3f79eeac8dd67ba9b94f5aa261c3d1f6",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 16800,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲视频营销奖_参赛指南.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 11,
+   "sha256": "7b103eee809afe4a1ef9f100e95980b7f5c6d1d8b011dee58284b8bb3ca6a622",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 2561,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲视频营销奖_参赛表_通用.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "6365982be61af57186aa2e158c66d3b8230069721bc7663f56e0cd4100221a26",
+   "extraction_method": "docx-native",
+   "han_chars": 10472,
+   "read_status": "READ"
+  },
+  {
+   "file": "2026艾菲视频营销奖_类别定义.pdf",
+   "type": "pdf",
+   "role": "category_definition",
+   "pages": 14,
+   "sha256": "a25258fb57bd01258f0c603ddb2bb323f9891c7b60f5338fd1eb1d96439c8051",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 5763,
+   "read_status": "READ"
+  },
+  {
+   "file": "Effie GC_取消参赛资格说明.pdf",
+   "type": "pdf",
+   "role": "case_archive",
+   "pages": 2,
+   "sha256": "f1bb30dfe7a9afecb89dd9ebb86af97ca7ce359c2ea3f36429336ca94857ac38",
+   "extraction_method": "pdf-text",
+   "han_chars": 943,
+   "read_status": "READ"
+  },
+  {
+   "file": "【参赛指南】2026 艾菲数字创新奖.pdf",
+   "type": "pdf",
+   "role": "handbook",
+   "pages": 12,
+   "sha256": "3628f60023a3aca39768a0eddbf7ccc626e4cf93c2b249e3fd4ffd8c9bf013a7",
+   "extraction_method": "pdf-ocr",
+   "han_chars": 2771,
+   "read_status": "READ"
+  },
+  {
+   "file": "【参赛表】2026艾菲数字创新奖.docx",
+   "type": "docx",
+   "role": "entry_form",
+   "pages": null,
+   "sha256": "b8a525763cb6491d8a639046651afe1dfa2073dc85d8f15ea6d5dffa406d9897",
+   "extraction_method": "docx-native",
+   "han_chars": 6977,
+   "read_status": "READ"
+  }
+ ]
+}

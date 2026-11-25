@@ -1,0 +1,119 @@
+{
+  "_template": "V1.1.1 intake draft — 仅供资料收集；非预检通过样例，正式输入须遵循 MIGRATION_V111.md",
+  "case_id": "",
+  "competition_year": 2026,
+  "award_id": "EFFIE_GC_MAIN",
+  "form": "通用",
+  "brand": "",
+  "brand_en": "",
+  "product": "",
+  "industry": "",
+  "category_numbers": [],
+  "implementation_start": "",
+  "implementation_end": "",
+  "region": "GREATER_CHINA",
+  "budget_range": "",
+  "media_scope": "",
+  "challenge": {
+    "text": "",
+    "structural_barrier": "",
+    "status": "UNKNOWN"
+  },
+  "goals": [
+    {
+      "goal_id": "G1",
+      "type": "business",
+      "kpi": "",
+      "baseline": "",
+      "target": "",
+      "measure": "",
+      "tag": "",
+      "set_date": "",
+      "status": "UNKNOWN"
+    }
+  ],
+  "audience": {
+    "core": "",
+    "extended": "",
+    "reach": "",
+    "status": "UNKNOWN"
+  },
+  "insight": {
+    "text": "",
+    "level": "L0|L1|L2|L3",
+    "source_type": "",
+    "source_ref": "",
+    "status": "UNKNOWN"
+  },
+  "strategy": {
+    "core": "",
+    "why_not_others": "",
+    "status": "UNKNOWN"
+  },
+  "creative": {
+    "idea": "",
+    "tagline": "",
+    "cta": "",
+    "status": "UNKNOWN"
+  },
+  "execution": {
+    "touchpoints_all": [],
+    "key_touchpoints": [],
+    "budget_split": {},
+    "optimizations": [],
+    "status": "UNKNOWN"
+  },
+  "results": [
+    {
+      "goal_id": "G1",
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "baseline": "",
+      "baseline_type": "own_history|category|competitor|none",
+      "denominator": "",
+      "formula": "",
+      "source": "",
+      "status": "UNKNOWN"
+    }
+  ],
+  "attribution": {
+    "claimed_conclusion": "A|B|C|D|E",
+    "methods": [],
+    "confounders_addressed": [],
+    "section_4_2_text": "",
+    "has_parallel_campaigns": null
+  },
+  "evidence": [],
+  "claims": [],
+  "creative_video": {
+    "duration_seconds": null,
+    "size_mb": null,
+    "format": "mp4",
+    "has_agency_name": false
+  },
+  "creative_print": [],
+  "case_narrative": {},
+  "assets": [],
+  "authorization": {
+    "client_authorized": false,
+    "agreement_signed": false,
+    "publication_option": null,
+    "rights_cleared": []
+  },
+  "gaps": [
+    {
+      "item": "",
+      "owner_dept": "",
+      "why_needed": "",
+      "due": ""
+    }
+  ],
+  "open_p0_issues": [],
+  "open_p1_issues": [],
+  "draft_hypotheses": [],
+  "metrics": [],
+  "answers": {},
+  "answer_bindings": {}
+}

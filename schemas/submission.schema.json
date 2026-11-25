@@ -1,0 +1,42 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Submission state",
+ "type": "object",
+ "required": [
+  "award_id",
+  "status",
+  "gates"
+ ],
+ "properties": {
+  "award_id": {
+   "type": "string"
+  },
+  "status": {
+   "enum": [
+    "DRAFT",
+    "NEEDS_INFORMATION",
+    "NEEDS_EVIDENCE",
+    "NEEDS_REVIEW",
+    "BLOCKED",
+    "READY_TO_SUBMIT"
+   ]
+  },
+  "gates": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "gate",
+     "title",
+     "passed"
+    ]
+   }
+  },
+  "failed_gates": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  }
+ }
+}

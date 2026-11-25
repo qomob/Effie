@@ -1,0 +1,79 @@
+{
+ "version": "1.1.0",
+ "purpose": "语料指纹索引：用于 verify_quotes.py 在无官方原件时做包内自检。不含任何官方原文，只有字符数与 SHA-256。",
+ "corpus_note": "官方 PDF/DOCX 原件与抽取文本均不随包分发（版权）；用户可用本索引核对自备语料是否与构建时一致。",
+ "fingerprint": "01116681c4b4e15b29b3d11ce09eb49d9995dad8106f66e284173219f7700e52",
+ "documents": {
+  "2026_大中华区艾菲奖_参赛手册.pdf": {
+   "available": true,
+   "chars": 26497,
+   "sha256": "8085f4ebbd2e294cdec47e152e7534b9ad81a0d500b743783f874354d303639d"
+  },
+  "2026艾菲AI奖_参赛手册.pdf": {
+   "available": true,
+   "chars": 21154,
+   "sha256": "e591064755946b7fd95bd124eccfd0a5fcec94f9c410277c785184998142663b"
+  },
+  "2026艾菲AI电商奖_参赛手册.pdf": {
+   "available": true,
+   "chars": 20923,
+   "sha256": "c7a15c43478785a49261ab1e352f5049b20d26cb4abe2756cce21c30469155d9"
+  },
+  "2026艾菲体育与生活方式奖_参赛手册.pdf": {
+   "available": true,
+   "chars": 29510,
+   "sha256": "f66ef1e46a91325aeaaff938549e17e6b8283ed10b2102e55bc81a22cf800e69"
+  },
+  "2026艾菲全球化营销奖_参赛手册.pdf": {
+   "available": true,
+   "chars": 46905,
+   "sha256": "3465d9b3407d15fa6c89a842a80d5ebdcae147e111d9809f00518b37a64fdc6d"
+  },
+  "2026艾菲公关奖_PRA_参赛手册.pdf": {
+   "available": true,
+   "chars": 19682,
+   "sha256": "6a3a75b06048f0c3438f49dc614bd2dc63de2b23c98a3594a604c3f5880119d6"
+  },
+  "2026艾菲可持续发展奖_参赛手册.pdf": {
+   "available": true,
+   "chars": 20859,
+   "sha256": "57738d1fb7762901f81c47e21ee84f5cdec6893b20cfec5a924dfb1823084de9"
+  },
+  "2026艾菲场景营销奖_参赛手册.pdf": {
+   "available": true,
+   "chars": 25434,
+   "sha256": "7c6d276c5d2626bd73f4f8e8e0d3800b281be612c3fc3ed994461c6794d88281"
+  },
+  "2026艾菲大健康奖_参赛手册.pdf": {
+   "available": true,
+   "chars": 30810,
+   "sha256": "10c4129ca072ec2e5ad701ae872e9afc51853be57fad9fb7a5a847ff6dd4a214"
+  },
+  "2026艾菲数字创新奖_参赛手册.pdf": {
+   "available": true,
+   "chars": 18603,
+   "sha256": "ba0b23eded9d5e9bc914dc79a9da104b16e4b0c4f50f87bdf882878b71ef72f8"
+  },
+  "2026艾菲文旅奖_参赛手册.pdf": {
+   "available": true,
+   "chars": 18860,
+   "sha256": "dd33348268654d3bb7dcd51e5d636299e4a9abe43b29bf546d41b35c7bd49eb8"
+  },
+  "2026艾菲汽车奖_参赛手册.pdf": {
+   "available": true,
+   "chars": 29303,
+   "sha256": "3d522ffb9cab1658cc4b61a757b3c8993ddb67039f470b8556e18a6bb440c00b"
+  },
+  "2026艾菲视频营销奖_参赛手册.pdf": {
+   "available": true,
+   "chars": 24347,
+   "sha256": "db4cd0ff3e31ae6b9192630519389e74bd9c7e8954298577aa0571cb06b843d3"
+  }
+ },
+ "counts": {
+  "verbatim": 444,
+  "referential": 39,
+  "paraphrase": 4
+ },
+ "total_rules": 487
+}

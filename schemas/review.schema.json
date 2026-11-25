@@ -1,0 +1,46 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Review finding",
+ "type": "object",
+ "required": [
+  "dimension",
+  "field",
+  "issue",
+  "severity",
+  "suggestion"
+ ],
+ "properties": {
+  "dimension": {
+   "type": "string"
+  },
+  "field": {
+   "type": "string"
+  },
+  "issue": {
+   "type": "string"
+  },
+  "evidence": {
+   "type": "string"
+  },
+  "reason": {
+   "type": "string"
+  },
+  "severity": {
+   "enum": [
+    "P0",
+    "P1",
+    "P2",
+    "P3"
+   ]
+  },
+  "suggestion": {
+   "type": "string"
+  },
+  "expected_gain": {
+   "type": "string"
+  },
+  "verify_method": {
+   "type": "string"
+  }
+ }
+}

@@ -1,0 +1,891 @@
+{
+  "total": 131,
+  "passed": 131,
+  "failed_or_skipped": 0,
+  "all_ok": true,
+  "suites": [
+    {
+      "file": "run_tests.py",
+      "ok": true,
+      "total": 64,
+      "passed": 64,
+      "failed": 0,
+      "seconds": 46.005,
+      "results": [
+        {
+          "group": "unit",
+          "name": "13 个奖项全部载入",
+          "ok": true,
+          "detail": "count=13"
+        },
+        {
+          "group": "unit",
+          "name": "核心规则类型完备（除 DIA video）",
+          "ok": true,
+          "detail": "missing=[]"
+        },
+        {
+          "group": "unit",
+          "name": "主奖项 134 个类别",
+          "ok": true,
+          "detail": "count=134"
+        },
+        {
+          "group": "unit",
+          "name": "28 行业类 + 106 专项类",
+          "ok": true,
+          "detail": "ind=28 spe=106"
+        },
+        {
+          "group": "unit",
+          "name": "全部类别有定义",
+          "ok": true,
+          "detail": "missing=[]"
+        },
+        {
+          "group": "unit",
+          "name": "6 个战略赛道",
+          "ok": true,
+          "detail": "tracks=['商业设计赛道', '数据智能营销赛道', '生意增长赛道', '电竞营销赛道', '私域营销赛道', '红人营销赛道']"
+        },
+        {
+          "group": "unit",
+          "name": "字段数 >= 85",
+          "ok": true,
+          "detail": "count=89"
+        },
+        {
+          "group": "unit",
+          "name": "字数限制字段 >= 55",
+          "ok": true,
+          "detail": "count=60"
+        },
+        {
+          "group": "unit",
+          "name": "主奖项权重 23.3/23.3/23.3/30",
+          "ok": true,
+          "detail": "{'part1_challenge': 23.3, 'part2_insight_strategy': 23.3, 'part3_execution': 23.3, 'part4_results': 30.0}"
+        },
+        {
+          "group": "unit",
+          "name": "全球化奖权重 15/25/30/30",
+          "ok": true,
+          "detail": "{'part1_challenge': 15.0, 'part2_insight_strategy': 25.0, 'part3_execution': 30.0, 'part4_results': 30.0}"
+        },
+        {
+          "group": "unit",
+          "name": "场景奖未核实权重不得用于计算",
+          "ok": true,
+          "detail": "None"
+        },
+        {
+          "group": "unit",
+          "name": "场景奖户外子类覆盖存在",
+          "ok": true,
+          "detail": "{'applies_to': '户外媒体营销子类别', 'weights': {'part1_challenge': 15.0, 'part2_insight_strategy': 30.0, 'part3_execution': 30.0, 'part4_results': 25.0}}"
+        },
+        {
+          "group": "unit",
+          "name": "权重合计符合官方公布值（99.9%）",
+          "ok": true,
+          "detail": "sum=99.9"
+        },
+        {
+          "group": "unit",
+          "name": "规则带页码",
+          "ok": true,
+          "detail": "page=7"
+        },
+        {
+          "group": "unit",
+          "name": "规则带原文引用",
+          "ok": true,
+          "detail": "2025年1月1日至2026年6月30日期间运行的营销活动均可参赛"
+        },
+        {
+          "group": "unit",
+          "name": "来源文件哈希可解析（64 hex）",
+          "ok": true,
+          "detail": "d30a0535ae6dc693"
+        },
+        {
+          "group": "unit",
+          "name": "全部规则可解析来源哈希",
+          "ok": true,
+          "detail": "missing=[]"
+        },
+        {
+          "group": "unit",
+          "name": "rule_with_hash 补齐 source_sha256",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "unit",
+          "name": "每条规则声明引用类型",
+          "ok": true,
+          "detail": "undeclared=[] kinds={'verbatim': 444, 'referential': 39, 'paraphrase': 4}"
+        },
+        {
+          "group": "unit",
+          "name": "逐字引用占比 >= 85%（分母=可核验引用，剔除指代性）",
+          "ok": true,
+          "detail": "verbatim=444/448 = 99.1%（另有 referential=39）"
+        },
+        {
+          "group": "unit",
+          "name": "转述引用已如实标注为 paraphrase",
+          "ok": true,
+          "detail": "paraphrase=4"
+        },
+        {
+          "group": "unit",
+          "name": "paraphrase 不得标 VERIFIED",
+          "ok": true,
+          "detail": "[]"
+        },
+        {
+          "group": "unit",
+          "name": "verbatim 均有页码或说明",
+          "ok": true,
+          "detail": "[]"
+        },
+        {
+          "group": "unit",
+          "name": "汉字计数",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "unit",
+          "name": "空白不计",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "unit",
+          "name": "标点计入",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "unit",
+          "name": "数字字母各计1",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "integration",
+          "name": "合规案例资格通过",
+          "ok": true,
+          "detail": "资格校验结果: CONDITIONAL   (奖项 EFFIE_GC_MAIN)"
+        },
+        {
+          "group": "integration",
+          "name": "晚于窗口开始 → BLOCKED",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "integration",
+          "name": "5 个类别 → BLOCKED",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "integration",
+          "name": "2 个行业类 → BLOCKED",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "integration",
+          "name": "主奖项加权分计算",
+          "ok": true,
+          "detail": [
+            "合计（百分制）                                            74.43"
+          ]
+        },
+        {
+          "group": "integration",
+          "name": "全球化奖用不同权重",
+          "ok": true,
+          "detail": [
+            "合计（百分制）                                            74.30"
+          ]
+        },
+        {
+          "group": "integration",
+          "name": "两个奖项结果不同",
+          "ok": true,
+          "detail": "权重区分生效"
+        },
+        {
+          "group": "integration",
+          "name": "字段缺失 → 非 READY",
+          "ok": true,
+          "detail": [
+            "交付状态: BLOCKED"
+          ]
+        },
+        {
+          "group": "integration",
+          "name": "资格不合规 → BLOCKED",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "integration",
+          "name": "规则查询输出权重",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "integration",
+          "name": "字段字数汇总",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "integration",
+          "name": "类别 55 含特殊资格",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "自声明 READY 无法绕过门禁",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "2027 年度 → UNKNOWN（不套用 2026 规则）",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "大中华区案例报全球化奖 → BLOCKED",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "虚构来源文件被拦（E02）",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "文件内容被篡改被拦（哈希不一致 E02）",
+          "ok": true,
+          "detail": "rc=1"
+        },
+        {
+          "group": "adversarial",
+          "name": "哈希一致不误伤（E02 不误报）",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "仅前后对比却称因果 → P0",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "ROAS 冒充 ROI → P0",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "百分比/百分点混用被检出（M02）",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "曝光冒充触达（M04）",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "生意目标用曝光作答（M09）",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "隐瞒未达成目标（M10）",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "同期活动未拆分（A06 P0）",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "机密数据入公开材料（E09 P0）",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "空证据+事实主张被拦（E04 P0）",
+          "ok": true,
+          "detail": "rc=1"
+        },
+        {
+          "group": "adversarial",
+          "name": "双空登记不产生虚假通过",
+          "ok": true,
+          "detail": "rc=1"
+        },
+        {
+          "group": "adversarial",
+          "name": "跨版本预算不一致（K01）",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "未知奖项直接报错不猜测",
+          "ok": true,
+          "detail": "rc=1"
+        },
+        {
+          "group": "adversarial",
+          "name": "超字数被拦（65/60）",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "证据自标 VERIFIED 无法绕过 G05",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "清空 open_issues 无法绕过 G10",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "group": "adversarial",
+          "name": "引用守卫内置自检通过（干净库）",
+          "ok": true,
+          "detail": "106f66e284173219f7700e52\n问题数          : 0\n==================================================================\nPASS（包内自洽）\n注：内置自检不等于逐字核验。逐字核验请加 --corpus（需自备官方语料）。\n"
+        },
+        {
+          "group": "adversarial",
+          "name": "引用守卫能抓出被篡改的规则库",
+          "ok": true,
+          "detail": "tampered=GC2026-EFFIE_AI_COMMERCE-industry_category_label-008 rc=1"
+        },
+        {
+          "group": "adversarial",
+          "name": "无 paraphrase 冒充 VERIFIED",
+          "ok": true,
+          "detail": "[]"
+        },
+        {
+          "group": "adversarial",
+          "name": "verbatim 均有页码或说明",
+          "ok": true,
+          "detail": "[]"
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "file": "run_scenarios.py",
+      "ok": true,
+      "total": 12,
+      "passed": 12,
+      "failed": 0,
+      "seconds": 71.078,
+      "results": [
+        {
+          "id": "S01",
+          "name": "快消整合营销",
+          "eligibility": "CONDITIONAL",
+          "expect_elig": "CONDITIONAL",
+          "p0": 0,
+          "p1": 0,
+          "expect_p0": 0,
+          "elig_ok": true,
+          "metric_ok": true,
+          "ok": true,
+          "status": "BLOCKED",
+          "failed_gates": [
+            "G01",
+            "G02",
+            "G03",
+            "G04",
+            "G05",
+            "G06",
+            "G08",
+            "G09",
+            "G10",
+            "G11"
+          ],
+          "ran": [
+            "eligibility",
+            "metrics",
+            "attribution",
+            "evidence",
+            "submission"
+          ],
+          "attribution": {
+            "P0": 0,
+            "P1": 2,
+            "P2": 0
+          },
+          "evidence": {
+            "P0": 0,
+            "P1": 2,
+            "P2": 0
+          },
+          "note": "46 场景营销特殊规则 scenario_based_required 尚待核验"
+        },
+        {
+          "id": "S02",
+          "name": "食品饮料新品上市",
+          "eligibility": "BLOCKED",
+          "expect_elig": "BLOCKED",
+          "p0": 0,
+          "p1": 1,
+          "expect_p0": 0,
+          "elig_ok": true,
+          "metric_ok": true,
+          "ok": true,
+          "status": "BLOCKED",
+          "failed_gates": [
+            "G01",
+            "G02",
+            "G03",
+            "G04",
+            "G05",
+            "G06",
+            "G08",
+            "G09",
+            "G10",
+            "G11"
+          ],
+          "ran": [
+            "eligibility",
+            "metrics",
+            "attribution",
+            "submission"
+          ],
+          "attribution": {
+            "P0": 0,
+            "P1": 2,
+            "P2": 0
+          },
+          "evidence": null,
+          "note": "115 要求新品上市≤3个月；2025-04 上市、2025-11 起实施已 7 个月 → 应拦为 BLOCKED"
+        },
+        {
+          "id": "S03",
+          "name": "美妆品牌年轻化",
+          "eligibility": "PASS",
+          "expect_elig": "PASS",
+          "p0": 0,
+          "p1": 1,
+          "expect_p0": 0,
+          "elig_ok": true,
+          "metric_ok": true,
+          "ok": true,
+          "status": "BLOCKED",
+          "failed_gates": [
+            "G01",
+            "G02",
+            "G04",
+            "G05",
+            "G06",
+            "G08",
+            "G09",
+            "G10",
+            "G11"
+          ],
+          "ran": [
+            "eligibility",
+            "metrics",
+            "attribution",
+            "submission"
+          ],
+          "attribution": {
+            "P0": 0,
+            "P1": 2,
+            "P2": 0
+          },
+          "evidence": null,
+          "note": "行业类16 + 专项32（青年营销-服务）"
+        },
+        {
+          "id": "S04",
+          "name": "汽车品牌营销",
+          "eligibility": "PASS",
+          "expect_elig": "PASS",
+          "p0": 0,
+          "p1": 0,
+          "expect_p0": 0,
+          "elig_ok": true,
+          "metric_ok": true,
+          "ok": true,
+          "status": "BLOCKED",
+          "failed_gates": [
+            "G01",
+            "G02",
+            "G04",
+            "G05",
+            "G06",
+            "G08",
+            "G09",
+            "G10",
+            "G11"
+          ],
+          "ran": [
+            "eligibility",
+            "metrics",
+            "attribution",
+            "submission"
+          ],
+          "attribution": {
+            "P0": 0,
+            "P1": 2,
+            "P2": 0
+          },
+          "evidence": null,
+          "note": "注意：汽车行业类应报艾菲汽车奖，本处仅验证主奖项专项/行业判断逻辑"
+        },
+        {
+          "id": "S05",
+          "name": "B2B 企业营销",
+          "eligibility": "CONDITIONAL",
+          "expect_elig": "CONDITIONAL",
+          "p0": 0,
+          "p1": 1,
+          "expect_p0": 0,
+          "elig_ok": true,
+          "metric_ok": true,
+          "ok": true,
+          "status": "BLOCKED",
+          "failed_gates": [
+            "G01",
+            "G02",
+            "G03",
+            "G04",
+            "G05",
+            "G06",
+            "G08",
+            "G09",
+            "G10",
+            "G11"
+          ],
+          "ran": [
+            "eligibility",
+            "metrics",
+            "attribution",
+            "submission"
+          ],
+          "attribution": {
+            "P0": 0,
+            "P1": 2,
+            "P2": 0
+          },
+          "evidence": null,
+          "note": "29 类 b2b_required 尚待人工核验；ARR 目标缺成果，不是完整合格案例"
+        },
+        {
+          "id": "S06",
+          "name": "电商促销与生意增长",
+          "eligibility": "PASS",
+          "expect_elig": "PASS",
+          "p0": 1,
+          "p1": 1,
+          "expect_p0": 1,
+          "elig_ok": true,
+          "metric_ok": true,
+          "ok": true,
+          "status": "BLOCKED",
+          "failed_gates": [
+            "G01",
+            "G02",
+            "G04",
+            "G05",
+            "G06",
+            "G08",
+            "G09",
+            "G10",
+            "G11"
+          ],
+          "ran": [
+            "eligibility",
+            "metrics",
+            "attribution",
+            "submission"
+          ],
+          "attribution": {
+            "P0": 1,
+            "P1": 2,
+            "P2": 0
+          },
+          "evidence": null,
+          "note": "GMV 冒充收入 + 无对照却称因果 → 应有 P0"
+        },
+        {
+          "id": "S07",
+          "name": "私域运营",
+          "eligibility": "PASS",
+          "expect_elig": "PASS",
+          "p0": 0,
+          "p1": 0,
+          "expect_p0": 0,
+          "elig_ok": true,
+          "metric_ok": true,
+          "ok": true,
+          "status": "BLOCKED",
+          "failed_gates": [
+            "G01",
+            "G02",
+            "G04",
+            "G05",
+            "G06",
+            "G08",
+            "G09",
+            "G10",
+            "G11"
+          ],
+          "ran": [
+            "eligibility",
+            "metrics",
+            "attribution",
+            "submission"
+          ],
+          "attribution": {
+            "P0": 0,
+            "P1": 2,
+            "P2": 0
+          },
+          "evidence": null,
+          "note": "两个专项类（同赛道），组合合法"
+        },
+        {
+          "id": "S08",
+          "name": "社交与红人营销",
+          "eligibility": "PASS",
+          "expect_elig": "PASS",
+          "p0": 0,
+          "p1": 2,
+          "expect_p0": 0,
+          "elig_ok": true,
+          "metric_ok": true,
+          "ok": true,
+          "status": "BLOCKED",
+          "failed_gates": [
+            "G01",
+            "G02",
+            "G04",
+            "G05",
+            "G06",
+            "G08",
+            "G09",
+            "G10",
+            "G11"
+          ],
+          "ran": [
+            "eligibility",
+            "metrics",
+            "attribution",
+            "submission"
+          ],
+          "attribution": {
+            "P0": 0,
+            "P1": 2,
+            "P2": 0
+          },
+          "evidence": null,
+          "note": "M2 增长率缺基线（P1）+ M1 GMV 冒充销售额（P1）；无 P0"
+        },
+        {
+          "id": "S09",
+          "name": "公益与社会价值",
+          "eligibility": "BLOCKED",
+          "expect_elig": "BLOCKED",
+          "p0": 0,
+          "p1": 1,
+          "expect_p0": 0,
+          "elig_ok": true,
+          "metric_ok": true,
+          "ok": true,
+          "status": "BLOCKED",
+          "failed_gates": [
+            "G01",
+            "G02",
+            "G03",
+            "G04",
+            "G05",
+            "G06",
+            "G08",
+            "G09",
+            "G10",
+            "G11"
+          ],
+          "ran": [
+            "eligibility",
+            "metrics",
+            "attribution",
+            "submission"
+          ],
+          "attribution": {
+            "P0": 0,
+            "P1": 2,
+            "P2": 0
+          },
+          "evidence": null,
+          "note": "91 适用于营利企业；NGO 主体应投 92，脚本应拦为 BLOCKED 并提示改投"
+        },
+        {
+          "id": "S10",
+          "name": "数据智能营销",
+          "eligibility": "PASS",
+          "expect_elig": "PASS",
+          "p0": 0,
+          "p1": 1,
+          "expect_p0": 0,
+          "elig_ok": true,
+          "metric_ok": true,
+          "ok": true,
+          "status": "BLOCKED",
+          "failed_gates": [
+            "G01",
+            "G02",
+            "G04",
+            "G05",
+            "G06",
+            "G08",
+            "G09",
+            "G10",
+            "G11"
+          ],
+          "ran": [
+            "eligibility",
+            "metrics",
+            "attribution",
+            "submission"
+          ],
+          "attribution": {
+            "P0": 0,
+            "P1": 2,
+            "P2": 0
+          },
+          "evidence": null,
+          "note": "数据智能赛道 2 个类别"
+        },
+        {
+          "id": "S11",
+          "name": "长周期持续成功",
+          "eligibility": "CONDITIONAL",
+          "expect_elig": "CONDITIONAL",
+          "p0": 0,
+          "p1": 0,
+          "expect_p0": 0,
+          "elig_ok": true,
+          "metric_ok": true,
+          "ok": true,
+          "status": "BLOCKED",
+          "failed_gates": [
+            "G01",
+            "G02",
+            "G03",
+            "G04",
+            "G05",
+            "G06",
+            "G08",
+            "G09",
+            "G10",
+            "G11"
+          ],
+          "ran": [
+            "eligibility",
+            "metrics",
+            "attribution",
+            "submission"
+          ],
+          "attribution": {
+            "P0": 0,
+            "P1": 2,
+            "P2": 0
+          },
+          "evidence": null,
+          "note": "55 连续4年但核心元素延续与专用素材规则仍须人工核验"
+        },
+        {
+          "id": "S12",
+          "name": "看似成功但无商业实效（低质量）",
+          "eligibility": "PASS",
+          "expect_elig": "PASS",
+          "p0": 1,
+          "p1": 2,
+          "expect_p0": 1,
+          "elig_ok": true,
+          "metric_ok": true,
+          "ok": true,
+          "status": "BLOCKED",
+          "failed_gates": [
+            "G01",
+            "G02",
+            "G04",
+            "G05",
+            "G06",
+            "G08",
+            "G09",
+            "G10",
+            "G11"
+          ],
+          "ran": [
+            "eligibility",
+            "metrics",
+            "attribution",
+            "submission"
+          ],
+          "attribution": {
+            "P0": 1,
+            "P1": 2,
+            "P2": 0
+          },
+          "evidence": null,
+          "note": "只有曝光/互动回答生意目标 → 应有多项 P0/P1"
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "file": "test_*.py",
+      "ok": true,
+      "total": 55,
+      "passed": 55,
+      "failed": 0,
+      "skipped": 0,
+      "unexpected_successes": 0,
+      "seconds": 56.199,
+      "output": "test_bad_form (test_integrity_v11.Integrity.test_bad_form) ... ok\ntest_bad_locator (test_integrity_v11.Integrity.test_bad_locator) ... ok\ntest_body_injection (test_integrity_v11.Integrity.test_body_injection) ... ok\ntest_budget_scope (test_integrity_v11.Integrity.test_budget_scope) ... ok\ntest_calculation (test_integrity_v11.Integrity.test_calculation) ... ok\ntest_duplicate (test_integrity_v11.Integrity.test_duplicate) ... ok\ntest_duplicate_json (test_integrity_v11.Integrity.test_duplicate_json) ... ok\ntest_empty_placeholder (test_integrity_v11.Integrity.test_empty_placeholder) ... ok\ntest_exact (test_integrity_v11.Integrity.test_exact) ... ok\ntest_fabricated_metric_value (test_integrity_v11.Integrity.test_fabricated_metric_value) ... ok\ntest_final_attack (test_integrity_v11.Integrity.test_final_attack) ... ok\ntest_hash_mismatch (test_integrity_v11.Integrity.test_hash_mismatch) ... ok\ntest_missing_file (test_integrity_v11.Integrity.test_missing_file) ... ok\ntest_missing_root (test_integrity_v11.Integrity.test_missing_root) ... ok\ntest_missing_sha (test_integrity_v11.Integrity.test_missing_sha) ... ok\ntest_missing_status (test_integrity_v11.Integrity.test_missing_status) ... ok\ntest_no_metrics (test_integrity_v11.Integrity.test_no_metrics) ... ok\ntest_placeholder_assets (test_integrity_v11.Integrity.test_placeholder_assets) ... ok\ntest_positive_preflight (test_integrity_v11.Integrity.test_positive_preflight) ... ok\ntest_public_leak (test_integrity_v11.Integrity.test_public_leak) ... ok\ntest_rules_unverified (test_integrity_v11.Integrity.test_rules_unverified) ... ok\ntest_scope (test_integrity_v11.Integrity.test_scope) ... ok\ntest_special_unknown (test_integrity_v11.Integrity.test_special_unknown) ... ok\ntest_symlink (test_integrity_v11.Integrity.test_symlink) ... ok\ntest_traversal (test_integrity_v11.Integrity.test_traversal) ... ok\ntest_unbound (test_integrity_v11.Integrity.test_unbound) ... ok\ntest_unrelated_correct_hash (test_integrity_v11.Integrity.test_unrelated_correct_hash) ... ok\ntest_unsupported_claim (test_integrity_v11.Integrity.test_unsupported_claim) ... ok\ntest_year (test_integrity_v11.Integrity.test_year) ... ok\ntest_all_status_never_authorizes (test_semantic_v111.Semantic.test_all_status_never_authorizes) ... ok\ntest_baseline_period (test_semantic_v111.Semantic.test_baseline_period) ... ok\ntest_baseline_relabel (test_semantic_v111.Semantic.test_baseline_relabel) ... ok\ntest_calc_injection (test_semantic_v111.Semantic.test_calc_injection) ... ok\ntest_calc_operand_mismatch (test_semantic_v111.Semantic.test_calc_operand_mismatch) ... ok\ntest_calc_positive (test_semantic_v111.Semantic.test_calc_positive) ... ok\ntest_calc_wrong_unit (test_semantic_v111.Semantic.test_calc_wrong_unit) ... ok\ntest_category_scope (test_semantic_v111.Semantic.test_category_scope) ... ok\ntest_claim_laundering (test_semantic_v111.Semantic.test_claim_laundering) ... ok\ntest_denominator_relabel (test_semantic_v111.Semantic.test_denominator_relabel) ... ok\ntest_draft_hypothesis_separate (test_semantic_v111.Semantic.test_draft_hypothesis_separate) ... ok\ntest_fake_docx (test_semantic_v111.Semantic.test_fake_docx) ... ok\ntest_fake_pdf (test_semantic_v111.Semantic.test_fake_pdf) ... ok\ntest_full_calc_preflight (test_semantic_v111.Semantic.test_full_calc_preflight) ... ok\ntest_goal_mismatch (test_semantic_v111.Semantic.test_goal_mismatch) ... ok\ntest_inference_laundering (test_semantic_v111.Semantic.test_inference_laundering) ... ok\ntest_metric_label (test_semantic_v111.Semantic.test_metric_label) ... ok\ntest_no_unparsed_numeric (test_semantic_v111.Semantic.test_no_unparsed_numeric) ... ok\ntest_partial_quote (test_semantic_v111.Semantic.test_partial_quote) ... ok\ntest_period_relabel (test_semantic_v111.Semantic.test_period_relabel) ... ok\ntest_provider_mismatch (test_semantic_v111.Semantic.test_provider_mismatch) ... ok\ntest_record_optional_fields_conflict (test_semantic_v111.Semantic.test_record_optional_fields_conflict) ... ok\ntest_scope_relabel (test_semantic_v111.Semantic.test_scope_relabel) ... ok\ntest_standalone_evidence_valid (test_semantic_v111.Semantic.test_standalone_evidence_valid) ... ok\ntest_unit_relabel (test_semantic_v111.Semantic.test_unit_relabel) ... ok\ntest_unverified_weights (test_semantic_v111.Semantic.test_unverified_weights) ... ok\n\n----------------------------------------------------------------------\nRan 55 tests in 56.171s\n\nOK\n"
+    }
+  ],
+  "not_executed": [
+    "独立真实模型四组对照与人工盲评",
+    "真实客户案例及实际宿主",
+    "官方原始语料全量复核",
+    "真实最终提交文件与签署效力核验"
+  ]
+}

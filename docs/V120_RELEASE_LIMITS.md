@@ -1,0 +1,8 @@
+# Explicit limits / NO-GO
+
+- Source authenticity, reviewer identity, authorization signatures, current official rule provenance are UNKNOWN; local review notes can be forged. No automatic release or submission.
+- Candidate intake is text extraction with local CLI, not a graphical workbench, semantic extraction model, OCR, or authoritative normalized-record generator. No automatic bridge from candidate to verified FACT. V1.1.1 deterministic checks still reject nonconforming source records; draft and human-review route is separate.
+- Context scanning is broad keyword-based (may reject documents containing legitimate discussion of targets). Same-scope conflict detection is exact-key, not normalization across units, aliases or all combinations. Context warnings are blockers for machine preflight, not definitive allegations of deception.
+- Goal matching uses restricted text pattern and declared metadata; cannot certify target-setting date, source authenticity or semantic attachment. Repetition and body coverage are heuristics, not comprehensive field meaning. Professional judgment remains human/model advice, not independently verified.
+- DOCX review copy only; official form, chart/slide visual interpretation, nested/unsupported content and actual final submission remain human tasks. No authentic signature or immutable audit store.
+- 2026 knowledge snapshot unchanged; dedicated/special forms still consultation only. Historical schemas not fully migrated. Host compatibility, real client projects, independent four-arm model blind evaluation, professional scoring, human-time/Token economics, full rule originals not executed.

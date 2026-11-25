@@ -1,0 +1,3559 @@
+{
+ "knowledge_base_version": "1.0.0",
+ "competition_year": 2026,
+ "main_award": {
+  "award_id": "EFFIE_GC_MAIN",
+  "official_counts": {
+   "industry": 28,
+   "specialty": 106,
+   "total": 134
+  },
+  "roster_source": "2026_大中华区艾菲奖_类别定义.pdf",
+  "roster_sha256": "782b6e5adbcc88c808d78dcc52121db088c3902e9b814c05e1aa0e9d6614260b",
+  "ocr_cross_check_matched": 95,
+  "ocr_cross_check_unmatched": [
+   "场景营鎖",
+   "以弱胜强-传统型",
+   "以弱胜强-形势型",
+   "数字商务"
+  ],
+  "categorisation_rule": "同一营销活动至多投报4个类别：1个行业类+3个专项类，或4个专项类；行业类最多1个",
+  "categories": [
+   {
+    "number": 1,
+    "name_zh": "休闲&消遣",
+    "name_en": "Leisure & Recreation",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "适用于所有针对兴趣爱好、休闲、消遣的产品和服务，包括但不限于：约会服务/软件，婚庆策划平台，个人发展/进修\n服务/软件，基因检测服务等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 2,
+    "name_zh": "保险",
+    "name_en": "Insurance",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "所有与保险相关的产品和服务，以及提供这类产品和服务的机构。任何种类的保险都在准入范畴内，包括但不限于：\n财产、人身、责任等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 3,
+    "name_zh": "餐饮",
+    "name_en": "Restaurants",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "包括快餐、休闲餐厅、连锁餐厅、中高端餐厅在内，任何形式的餐厅和餐饮服务。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 4,
+    "name_zh": "电子产品",
+    "name_en": "Electronics",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "包括电视、收音机等视听产品，手机、电话等移动设备，家用影院、相机、电脑硬件、笔记本电脑、平板、音响设备、\n游戏机及可穿戴游戏设备、航拍无人机、外接式或一体式AR/VR头显设备等。面向消费者和企业的电子产品皆可投报。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 5,
+    "name_zh": "电子游戏",
+    "name_en": "Gaming",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别包括与单机游戏和网络游戏相关的产品与服务。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 6,
+    "name_zh": "个人护理",
+    "name_en": "Personal Care",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "包含沐浴露、香皂、洁面乳、口腔护理产品、除臭剂、棉棒、女性卫生用品、剃刀、剃须膏在内的个人护理产品。\n※  请注意：若产品/服务专注于美容和美妆，须投报“美容和美妆”类别。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 7,
+    "name_zh": "农业、工业和建筑",
+    "name_en": "Agricultural, Industrial & Building",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "所有农业、工业和建筑相关的产品、材料、工具和服务。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 8,
+    "name_zh": "家电和家居用品",
+    "name_en": "Home Furnishings & Appliances",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "包括厨房用具、洗衣机、空调、地毯、家具、家装用品、油漆涂料、墙纸等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 9,
+    "name_zh": "家庭清洁护理",
+    "name_en": "Household Supplies",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "包括家用清洁产品、打蜡用品、消毒剂、地板养护产品、织物柔顺剂、卫生纸品、花园/草坪养护等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 10,
+    "name_zh": "交通运输",
+    "name_en": "Transportation",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "航空航天、铁路、船运、公共交通（地铁、轻轨、巴士），同时包含汽车之外的摩托车，三轮车和自行车等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 11,
+    "name_zh": "教育和培训",
+    "name_en": "Education & Training",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "包括与早教、基础教育和高等教育等相关的教育机构和服务，也包括职业培训、语言培训、海外留学、求职网站等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 12,
+    "name_zh": "金融",
+    "name_en": "Finance",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "包含银行、证券等金融机构整体的企业/品牌形象，及其业务范围；以及具体的金融产品/服务，例如信用/储蓄卡产品、\n贷款服务、移动/线上支付服务、理财服务等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 13,
+    "name_zh": "零食和甜点",
+    "name_en": "Snacks & Desserts",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "包括冰激凌、糖果、薯条、饼干、烘焙制品、坚果、爆米花等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 14,
+    "name_zh": "零售",
+    "name_en": "Retail",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "适用于所有售卖常规或特定商品的零售公司和零售店(线上商店和实体店)。例如，百货公司，服装、鞋靴或珠宝饰\n品店，杂货店，书店，折扣店，玩具商店，便利店等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 15,
+    "name_zh": "媒体和娱乐公司",
+    "name_en": "Media & Entertainment Companies",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "电视网络、流媒体服务、网站（娱乐、生活方式、新闻、贸易等）、报纸、杂志、消费者或贸易（商贸）媒体、\n电台、广播公司等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 16,
+    "name_zh": "美容和美妆",
+    "name_en": "Beauty & Fragrance",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "包括美容和美妆类的产品或服务。产品如化妆品、美发产品、美甲产品、香水等；服务如美容、护肤、护理、沙\n龙分享等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 17,
+    "name_zh": "配送服务",
+    "name_en": "Delivery Services",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "快递、货运/大件包裹、包裹追踪、国际服务、闪送、配送：食品&饮料、鲜花和 礼品、日用百货等等；",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 18,
+    "name_zh": "软件",
+    "name_en": "Software",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "软件、群组软件、操作系统、  SaaS/IaaS、AI 大模型、云计算服务、及储存于电脑、平板电脑、移动端等终端设备\n上的软件/ 应用程序。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 19,
+    "name_zh": "时尚和配饰",
+    "name_en": "Fashion & Accessories",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "包括所有服装、配饰、珠宝、造型设计、服饰租赁等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 20,
+    "name_zh": "食品",
+    "name_en": "Food",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "包括生鲜食品（果蔬、肉类、水产品、熟食）、冷冻食品、预包装食品、加工食品、未加工食品、半成品、清真\n食品。\n※  请注意：若产品是零食或甜点，须投报“零食和甜点”类别。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 21,
+    "name_zh": "网络和电信",
+    "name_en": "",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "Internet & Telecom\n电信运营商、宽带安装服务、融合宽带（互联网、电话和电视）、线上服务等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 22,
+    "name_zh": "文化和艺术",
+    "name_en": "Culture & The Arts",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "沉浸式体验、音乐家协会、系列音乐会、音乐节、文化节、文艺演出、文艺团体或源于文化主题经由创意转化，\n具备市场价值的文创产品或服务也可投报此类别。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 23,
+    "name_zh": "饮料-非酒精-非碳酸",
+    "name_en": "Beverages - Non-Alcohol -non-carbonated",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "包括矿泉水、咖啡、牛奶、奶茶、苏打水、椰子汁、豆奶、谷物饮料等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 24,
+    "name_zh": "饮料-非酒精-碳酸",
+    "name_en": "Beverages - Non-Alcohol -carbonated",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "在一定条件下被充入二氧化碳气体的饮料，包括碳酸饮料、充气运动饮料、气泡型苏打水等；果味型碳酸饮料指\n以香料为主要赋香剂，果汁含量低于 2.5%。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 25,
+    "name_zh": "饮料-酒精",
+    "name_en": "Beverages – Alcohol",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "酒精饮料系指供人们饮用的且乙醇含量在 0.5%(vol)以上的饮料，包括各种发酵酒、蒸馏酒、配制酒及预调酒。\n白酒、威士忌、白兰地、鸡尾酒、葡萄酒、果酒、啤酒、黄酒、露酒、药酒、青稞酒、马奶酒、硬苏打水等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 26,
+    "name_zh": "娱乐",
+    "name_en": "Entertainment",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "泛指所有娱乐性元素，包括电影、电视节目、播客、书籍、音乐、漫画、游戏（非电子游戏和电竞）、玩具、娱\n乐应用程序等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 27,
+    "name_zh": "政府和公共服务",
+    "name_en": "Government & Public Service",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "国家和城市形象、地方和国家的经济发展、外交、武装部队、基础设施、公园、图书馆、人才引进、公共服务等\n以及政策信息、政府招聘等；  非政府组织和慈善机构。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 28,
+    "name_zh": "专业服务",
+    "name_en": "Professional Services",
+    "kind": "industry",
+    "section_zh": "行业类",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "包括法律服务、会计、审计和簿记服务、税收服务、咨询服务、管理服务、与计算机相关联的生产技术服务、工\n程设计服务、集中工程服务、风景建筑服务、城市规划服务、旅游机构服务、公共关系服务、广告设计和媒体代\n理服务、人才猎头服务、市场调查服务和其他。\n专项类（非赛道） SPECIALTY CATEGORIES\n精准营销 PRECISION MARKETING\n该部分针对业务精准定位特定受众群体的营销案例。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "industry_attribute"
+    ]
+   },
+   {
+    "number": 29,
+    "name_zh": "B2B  Business-to-Business",
+    "name_en": "",
+    "kind": "specialty",
+    "section_zh": "精准营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别适用于企业针对企业的营销活动。来自任何细分市场的、任何形式的B2B产品和服务，皆可投报。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "b2b_required",
+      "value": true,
+      "note": "企业针对企业的营销活动"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "target_audience_definition"
+    ]
+   },
+   {
+    "number": 30,
+    "name_zh": "母婴营销",
+    "name_en": "Maternal Marketing",
+    "kind": "specialty",
+    "section_zh": "精准营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别特指针对孕期女性、新生儿或婴儿家长的营销活动。案例需详述营销活动是如何围绕此类群体展开、并达成既定\n目标；同时需要呈现针对该群体，营销活动在传播层面的限制及要求等背景信息。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "audience_pregnant_or_infant",
+      "value": true
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "target_audience_definition"
+    ]
+   },
+   {
+    "number": 31,
+    "name_zh": "青年营销 – 产品",
+    "name_en": "Youth Marketing - Products",
+    "kind": "specialty",
+    "section_zh": "精准营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别特指针对年轻人群的营销活动。案例需详述如何针对该群体进行营销活动构思并达成既定目标。在 “洞察与策\n略”和“策略和创意实施” 中，案例需着重描述青少年市场的特点，包括相关特质、细微差别、潮流趋势、价值观念、\n语言习惯等，以及这些特质对该营销活动的意义。",
+    "definition_shared_with": 32,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "target_audience_definition"
+    ]
+   },
+   {
+    "number": 32,
+    "name_zh": "青年营销 – 服务",
+    "name_en": "Youth Marketing - Services",
+    "kind": "specialty",
+    "section_zh": "精准营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别特指针对年轻人群的营销活动。案例需详述如何针对该群体进行营销活动构思并达成既定目标。在 “洞察与策\n略”和“策略和创意实施” 中，案例需着重描述青少年市场的特点，包括相关特质、细微差别、潮流趋势、价值观念、\n语言习惯等，以及这些特质对该营销活动的意义。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "target_audience_definition"
+    ]
+   },
+   {
+    "number": 33,
+    "name_zh": "“她”营销",
+    "name_en": "She Marketing",
+    "kind": "specialty",
+    "section_zh": "精准营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别旨在表彰成功沟通女性目标群体的营销活动。案例需阐明具体受众的特质，并展示和与之相关的洞察，以及\n针对该群体沟通的界限和要求。案例需阐明营销活动如何针对该群体以及如何取得了成功。\n品牌内容，娱乐和体验营销\nBRAND CONTENT, ENTERTAINMENT & EXPERIENTIAL\nMARKETING\n该部分旨在呈现品牌新内容、现场体验、虚拟体验以及积极的受众参与，表彰品牌为既有受众和/或潜在受众\n创造了印象深刻、富有意义的体验，并与之加深联系的实效案例。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "target_audience_definition"
+    ]
+   },
+   {
+    "number": 34,
+    "name_zh": "品牌内容 - 产品",
+    "name_en": "Brand Content - Products",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "旨在表彰通过原生品牌内容有效触达受众的营销案例。该内容应可供受众消费和体验，并具有娱乐性或带有丰富信息促\n使消费者进行主动探索和搜寻。案例应阐明该内容是什么，及其与整个品牌和商业目标的相关性，同时参赛者需详述该\n内容是如何分发给目标受众并被受众分享的，及其为品牌和商业达成的结果。 评委希望了解案例为何将品牌内容作为策\n略点。",
+    "definition_shared_with": 35,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "content_is_strategy_point"
+    ]
+   },
+   {
+    "number": 35,
+    "name_zh": "品牌内容 - 服务",
+    "name_en": "Brand Content - Services",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "旨在表彰通过原生品牌内容有效触达受众的营销案例。该内容应可供受众消费和体验，并具有娱乐性或带有丰富信息促\n使消费者进行主动探索和搜寻。案例应阐明该内容是什么，及其与整个品牌和商业目标的相关性，同时参赛者需详述该\n内容是如何分发给目标受众并被受众分享的，及其为品牌和商业达成的结果。 评委希望了解案例为何将品牌内容作为策\n略点。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "content_is_strategy_point"
+    ]
+   },
+   {
+    "number": 36,
+    "name_zh": "品牌整合与娱乐合作 – 影视",
+    "name_en": "Brand Integration & Entertainment Partnerships – Film & Television",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "旨在表彰借助策略性整合与娱乐合作、有效触达其目标受众的营销活动。案例需详述品牌是如何以一种引人入胜的方式\n和与之契合的内容完美配合、无缝衔接，并贯穿整个营销活动。务必阐明此次合作背后的策略和逻辑，说明为什么相较\n之下选择了这一合作伙伴。清楚呈现选择和达成这一合作的过程，以及该合作如何与成果关联、促成品牌既定目标的达\n成。该类别的“娱乐”泛指所有娱乐性元素，包括影视，综艺，音乐，电子游戏等。",
+    "definition_shared_with": 40,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "partner_selection_rationale"
+    ]
+   },
+   {
+    "number": 37,
+    "name_zh": "品牌整合与娱乐合作 – 综艺",
+    "name_en": "Brand Integration & Entertainment Partnerships – Variety Show",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "旨在表彰借助策略性整合与娱乐合作、有效触达其目标受众的营销活动。案例需详述品牌是如何以一种引人入胜的方式\n和与之契合的内容完美配合、无缝衔接，并贯穿整个营销活动。务必阐明此次合作背后的策略和逻辑，说明为什么相较\n之下选择了这一合作伙伴。清楚呈现选择和达成这一合作的过程，以及该合作如何与成果关联、促成品牌既定目标的达\n成。该类别的“娱乐”泛指所有娱乐性元素，包括影视，综艺，音乐，电子游戏等。",
+    "definition_shared_with": 40,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "partner_selection_rationale"
+    ]
+   },
+   {
+    "number": 38,
+    "name_zh": "品牌整合与娱乐合作 – 音乐",
+    "name_en": "Brand Integration & Entertainment Partnerships – Music",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "旨在表彰借助策略性整合与娱乐合作、有效触达其目标受众的营销活动。案例需详述品牌是如何以一种引人入胜的方式\n和与之契合的内容完美配合、无缝衔接，并贯穿整个营销活动。务必阐明此次合作背后的策略和逻辑，说明为什么相较\n之下选择了这一合作伙伴。清楚呈现选择和达成这一合作的过程，以及该合作如何与成果关联、促成品牌既定目标的达\n成。该类别的“娱乐”泛指所有娱乐性元素，包括影视，综艺，音乐，电子游戏等。",
+    "definition_shared_with": 40,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "partner_selection_rationale"
+    ]
+   },
+   {
+    "number": 39,
+    "name_zh": "品牌整合与娱乐合作 – 电子游戏",
+    "name_en": "Brand Integration & Entertainment Partnerships - Gaming",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "旨在表彰借助策略性整合与娱乐合作、有效触达其目标受众的营销活动。案例需详述品牌是如何以一种引人入胜的方式\n和与之契合的内容完美配合、无缝衔接，并贯穿整个营销活动。务必阐明此次合作背后的策略和逻辑，说明为什么相较\n之下选择了这一合作伙伴。清楚呈现选择和达成这一合作的过程，以及该合作如何与成果关联、促成品牌既定目标的达\n成。该类别的“娱乐”泛指所有娱乐性元素，包括影视，综艺，音乐，电子游戏等。",
+    "definition_shared_with": 40,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "partner_selection_rationale"
+    ]
+   },
+   {
+    "number": 40,
+    "name_zh": "品牌整合与娱乐合作 – 其他",
+    "name_en": "Brand Integration & Entertainment Partnerships –Others",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "旨在表彰借助策略性整合与娱乐合作、有效触达其目标受众的营销活动。案例需详述品牌是如何以一种引人入胜的方式\n和与之契合的内容完美配合、无缝衔接，并贯穿整个营销活动。务必阐明此次合作背后的策略和逻辑，说明为什么相较\n之下选择了这一合作伙伴。清楚呈现选择和达成这一合作的过程，以及该合作如何与成果关联、促成品牌既定目标的达\n成。该类别的“娱乐”泛指所有娱乐性元素，包括影视，综艺，音乐，电子游戏等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "partner_selection_rationale"
+    ]
+   },
+   {
+    "number": 41,
+    "name_zh": "跨界营销",
+    "name_en": "Crossover",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰品牌基于对目标受众的精准洞察，与不同行业、不同领域或不同次元的品牌、产品或 IP 联名, 推出有\n创新的、有逻辑性的、实效跨界合作。案例需详述品牌如何以一种难以抗拒的方式联结了受众，以及合作双方如\n何建立清晰的共同目标并实现双赢。案例还需阐述跨界合作背后的战略考虑，包括为何选择该合作伙伴，并解释\n该合作如何带来符合品牌目标的结果。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 42,
+    "name_zh": "情感营销",
+    "name_en": "Affective Engagement Marketing",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰以消费者情感共鸣为核心，通过文化符号、场景化叙事及价值观输出，建立品牌与用户的情感纽带，\n驱动消费决策并强化品牌认同的本土化策略，在社交传播与体验设计中深化长期关系的 优秀营销案例。案例需详\n述如何形成\" 情感触发-记忆沉淀-行为转化\"的闭环链路。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 43,
+    "name_zh": "体验营销 - 现场",
+    "name_en": "Experiential Marketing - Live",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "以上类别针对以非传统营销手段创造品牌体验的营销活动，准入范畴不包含电视、广播或印刷等传统广告手段。\n案例须将品牌或产品呈现给特定受众、与之产生互动，从而达成营销目标。可以是通过改造产品、焕新快闪店，或\n发起彻底的零售体验转变；也可以是设计一种全新玩法，营造虚拟现实或沉浸式互动体验来推广新产品、传播品牌\n个性。只要该体验真实存在且达成实效，一切皆可投报。\n案例应当展现品牌是如何通过引人入胜的体验触达消费者，并与之建立起印象深刻、品牌独有的联系。务必阐述\n品牌体验如何与品牌整体战略相关联。此外，评委希望看到该体验中的“受众参与和互动”处于营销活动的核心。\n无论案例是全案，还是项目的一环，皆可投报。",
+    "definition_shared_with": 45,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "audience_participation_at_core"
+    ]
+   },
+   {
+    "number": 44,
+    "name_zh": "体验营销 - 数字",
+    "name_en": "Experiential Marketing - Digital",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "以上类别针对以非传统营销手段创造品牌体验的营销活动，准入范畴不包含电视、广播或印刷等传统广告手段。\n案例须将品牌或产品呈现给特定受众、与之产生互动，从而达成营销目标。可以是通过改造产品、焕新快闪店，或\n发起彻底的零售体验转变；也可以是设计一种全新玩法，营造虚拟现实或沉浸式互动体验来推广新产品、传播品牌\n个性。只要该体验真实存在且达成实效，一切皆可投报。\n案例应当展现品牌是如何通过引人入胜的体验触达消费者，并与之建立起印象深刻、品牌独有的联系。务必阐述\n品牌体验如何与品牌整体战略相关联。此外，评委希望看到该体验中的“受众参与和互动”处于营销活动的核心。\n无论案例是全案，还是项目的一环，皆可投报。",
+    "definition_shared_with": 45,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "audience_participation_at_core"
+    ]
+   },
+   {
+    "number": 45,
+    "name_zh": "体验营销 - 混合",
+    "name_en": "Experiential Marketing - Hybrid",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "以上类别针对以非传统营销手段创造品牌体验的营销活动，准入范畴不包含电视、广播或印刷等传统广告手段。\n案例须将品牌或产品呈现给特定受众、与之产生互动，从而达成营销目标。可以是通过改造产品、焕新快闪店，或\n发起彻底的零售体验转变；也可以是设计一种全新玩法，营造虚拟现实或沉浸式互动体验来推广新产品、传播品牌\n个性。只要该体验真实存在且达成实效，一切皆可投报。\n案例应当展现品牌是如何通过引人入胜的体验触达消费者，并与之建立起印象深刻、品牌独有的联系。务必阐述\n品牌体验如何与品牌整体战略相关联。此外，评委希望看到该体验中的“受众参与和互动”处于营销活动的核心。\n无论案例是全案，还是项目的一环，皆可投报。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "audience_participation_at_core"
+    ]
+   },
+   {
+    "number": 46,
+    "name_zh": "场景营销",
+    "name_en": "Scenario Marketing",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别旨在表彰以消费者需求为中心，通过提供与场景高度相关的内容和服务，增强消费者的体验和参与感从而\n达到营销目的的案例。投报该类别的案例需详述如何通过特定的场景营销，精准地满足消费者的需求。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "scenario_based_required",
+      "value": true
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 47,
+    "name_zh": "文化营销  - 传统文化",
+    "name_en": "Cultural Marketing - Traditional Culture",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "适用于借助文化的元素或形式，建立品牌/产品与客户情感联系的营销活动。案例需说明是如何在营销中贯穿文化\n理念，在满足消费者文化需求的同时，突显产品/ 品牌的价值，从而取得成功。\n商业成就 BUSINESS ACHIEVEMENT\n该部分表彰应对特殊商业状况和挑战的实效营销案例。",
+    "definition_shared_with": 48,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 48,
+    "name_zh": "文化营销  - 流行文化",
+    "name_en": "Cultural Marketing - Popular Culture",
+    "kind": "specialty",
+    "section_zh": "品牌内容，娱乐和体验营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "适用于借助文化的元素或形式，建立品牌/产品与客户情感联系的营销活动。案例需说明是如何在营销中贯穿文化\n理念，在满足消费者文化需求的同时，突显产品/ 品牌的价值，从而取得成功。\n商业成就 BUSINESS ACHIEVEMENT\n该部分表彰应对特殊商业状况和挑战的实效营销案例。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 49,
+    "name_zh": "企业声誉",
+    "name_en": "Corporate Reputation",
+    "kind": "specialty",
+    "section_zh": "商业成就",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰推广企业的案例，而不只局限于其产品推广。包括通过赞助、募捐等方式提升企业形象与地位的案例。案例\n不仅需要呈现与企业声誉相关的指标，还需阐明这些指标对品牌业务的关联性和重要性。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "corporate_not_product"
+    ]
+   },
+   {
+    "number": 50,
+    "name_zh": "以弱胜强 – 传统型 David vs. Goliath (Traditional)",
+    "name_en": "",
+    "kind": "specialty",
+    "section_zh": "商业成就",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰成立不足五年的新兴品牌或小型企业，通过跨界挑战行业主导者（需证明双方存在显著市场差异，如品牌价\n值/渠道覆盖等核心指标）实现突破的案例。申报方需系统阐述：\n  如何重构竞争维度（技术颠覆/模式创新）突破品类壁垒；\n  在资源劣势下构建局部优势的战术路径（如精准狙击细分市场）；\n  通过用户认知重构或市场份额跃升验证战果。\n若未能证明品牌初始弱势地位，评委将酌情扣分。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "brand_age_max_years",
+      "value": 5,
+      "note": "成立不足五年的新兴品牌或小型企业，需证明双方存在显著市场差异"
+     },
+     {
+      "rule": "must_prove_initial_disadvantage",
+      "value": true,
+      "note": "若未能证明品牌初始弱势地位，评委将酌情扣分"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "competitive_position_proof"
+    ]
+   },
+   {
+    "number": 51,
+    "name_zh": "以弱胜强 – 形势型  David vs. Goliath (Situational)",
+    "name_en": "",
+    "kind": "specialty",
+    "section_zh": "商业成就",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰头部企业在突发危机（如供应链断裂/政策突变）或结构性困境（品类衰退期）中实现逆势增长的案例。申\n报需证明：\n  危机应对机制的有效性；\n  通过战略放弃或价值重构创造新增长极；\n  关键业务指标改善；\n参赛者须详述所面临的商业挑战，竞争环境，以及是如何克服不利条件并取得成功的。若未能提供竞争环境恶化作证品\n牌处于特殊情境，评委将酌情扣分。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "must_prove_adverse_environment",
+      "value": true,
+      "note": "须证明头部企业处于突发危机或结构性困境"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "competitive_position_proof"
+    ]
+   },
+   {
+    "number": 52,
+    "name_zh": "品牌活化",
+    "name_en": "Renaissance",
+    "kind": "specialty",
+    "section_zh": "商业成就",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别适用于复兴品牌、使之重生的营销活动。要求参赛案例的品牌必须经历过长达数几年的低迷期和至少六个月的销\n售回升期。案例必须详述其商业挑战、品牌现状、竞争格局以及营销活动是如何成功的。案例必须说明先前的营销投资\n情况和策略，以作背景信息；同时，就其复兴阶段提供充足细节。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "brand_decline_period_years_min",
+      "value": 3,
+      "note": "品牌必须经历过长达数几年的低迷期"
+     },
+     {
+      "rule": "sales_recovery_months_min",
+      "value": 6,
+      "note": "至少六个月的销售回升期"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 53,
+    "name_zh": "小预算 – 产品",
+    "name_en": "Small Budgets - Products",
+    "kind": "specialty",
+    "section_zh": "商业成就",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "投报该类别的案例必须为此品牌在该投放期内实施的唯一营销活动。任何属于产品线扩展的产品或服务不得投报。艾菲奖\n定义的产品线扩展包括：\n  作为现有产品的变形，与现有产品的品牌名、品类完全一致，只是具备了某一新特征；\n  产品特性有调整，但价格并无显著变化的衍生产品或服务；\n  使用同一品牌名称但提供多种选择的产品，例如新口味、少糖/无糖版等。\n该类别参赛案例须呈现受赠媒体和非传统媒体的价值以及项目激活的成本。符合参赛资格的案例预算范围如下：\n  城市范围：不超过 100 万人民币；\n  省级范围：不超过 200 万人民币；\n  全国范围：不超过 500 万人民币。",
+    "definition_shared_with": 54,
+    "special_rules": [
+     {
+      "rule": "budget_cap_cny",
+      "value": 1000000,
+      "scope": "city",
+      "note": "城市范围不超过100万人民币"
+     },
+     {
+      "rule": "budget_cap_cny",
+      "value": 2000000,
+      "scope": "province",
+      "note": "省级范围不超过200万"
+     },
+     {
+      "rule": "budget_cap_cny",
+      "value": 5000000,
+      "scope": "national",
+      "note": "全国范围不超过500万"
+     },
+     {
+      "rule": "sole_activity_in_period",
+      "value": true,
+      "note": "必须为此品牌在该投放期内实施的唯一营销活动"
+     },
+     {
+      "rule": "excludes_line_extension",
+      "value": true,
+      "note": "产品线扩展不得投报"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "budget_threshold"
+    ]
+   },
+   {
+    "number": 54,
+    "name_zh": "小预算 – 服务",
+    "name_en": "Small Budgets - Services",
+    "kind": "specialty",
+    "section_zh": "商业成就",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "投报该类别的案例必须为此品牌在该投放期内实施的唯一营销活动。任何属于产品线扩展的产品或服务不得投报。艾菲奖\n定义的产品线扩展包括：\n  作为现有产品的变形，与现有产品的品牌名、品类完全一致，只是具备了某一新特征；\n  产品特性有调整，但价格并无显著变化的衍生产品或服务；\n  使用同一品牌名称但提供多种选择的产品，例如新口味、少糖/无糖版等。\n该类别参赛案例须呈现受赠媒体和非传统媒体的价值以及项目激活的成本。符合参赛资格的案例预算范围如下：\n  城市范围：不超过 100 万人民币；\n  省级范围：不超过 200 万人民币；\n  全国范围：不超过 500 万人民币。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "budget_cap_cny",
+      "value": 1000000,
+      "scope": "city"
+     },
+     {
+      "rule": "budget_cap_cny",
+      "value": 2000000,
+      "scope": "province"
+     },
+     {
+      "rule": "budget_cap_cny",
+      "value": 5000000,
+      "scope": "national"
+     },
+     {
+      "rule": "sole_activity_in_period",
+      "value": true
+     },
+     {
+      "rule": "excludes_line_extension",
+      "value": true
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "budget_threshold"
+    ]
+   },
+   {
+    "number": 55,
+    "name_zh": "持续成功",
+    "name_en": "Sustained Success",
+    "kind": "specialty",
+    "section_zh": "商业成就",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "至少连续三年取得持续成功的营销活动方可参赛。案例至少需包含三年的创意作品及成果，并须涵盖本届竞赛年度\n（在参赛资格周期内即可）的成果。作品在策略与创意实施上必须拥有共同目标；且核心执行元素（如代言人、歌曲、\n主题、标语等）需保持延续，以证明其长期有效性。作为报赛材料的一部分，需具体说明该作品如何随时间演进（例如\n媒体选择、目标受众、洞察、新产品 / 服务等）。请回答初始年度的所有问题，并阐述后续为何以及如何随时间发生变\n更。\n※   请注意：此类别投报请使用“持续成功类”专用参赛表，其创意视频可长达4分钟。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "consecutive_years_min",
+      "value": 3,
+      "note": "至少连续三年取得持续成功，须含本届竞赛年度成果"
+     },
+     {
+      "rule": "requires_continuous_core_elements",
+      "value": true,
+      "note": "核心执行元素需保持延续"
+     },
+     {
+      "rule": "dedicated_form",
+      "value": "持续成功类",
+      "note": "须使用持续成功类专用参赛表"
+     },
+     {
+      "rule": "video_max_seconds",
+      "value": 240,
+      "note": "创意视频可长达4分钟"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "multi_year_continuity"
+    ]
+   },
+   {
+    "number": 56,
+    "name_zh": "时机营销 – 产品",
+    "name_en": "Timely Opportunity - Products",
+    "kind": "specialty",
+    "section_zh": "商业成就",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别旨在表彰具备洞察力，知道如何、及何时“造势”，并最大限度发挥涟漪效应的品牌。参赛案例需详述是如何将品\n牌/产品/服务置于强烈关注下以产生立竿见影、可量化的、远超预期和非传统的影响。\n在该类别脱颖而出的获奖者代表着兼具洞察力和创造力，为品牌打造出意料之外，突破常规的焦点时刻的实效案例。最\n佳范例常见于线上和线下的现场体验、焦点瞬间、特技和策略、线上和线下，抑或通过公关、社交媒体、数字化交互，\n甚至使用当下产出的内容以推动付费的营销活动，从而扩大影响。此类别聚焦由某一个重要时机/时刻触发、受此驱动\n展开营销活动、并达成既定目标的策略性实效案例。",
+    "definition_shared_with": 57,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 57,
+    "name_zh": "时机营销 – 服务",
+    "name_en": "Timely Opportunity - Services",
+    "kind": "specialty",
+    "section_zh": "商业成就",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别旨在表彰具备洞察力，知道如何、及何时“造势”，并最大限度发挥涟漪效应的品牌。参赛案例需详述是如何将品\n牌/产品/服务置于强烈关注下以产生立竿见影、可量化的、远超预期和非传统的影响。\n在该类别脱颖而出的获奖者代表着兼具洞察力和创造力，为品牌打造出意料之外，突破常规的焦点时刻的实效案例。最\n佳范例常见于线上和线下的现场体验、焦点瞬间、特技和策略、线上和线下，抑或通过公关、社交媒体、数字化交互，\n甚至使用当下产出的内容以推动付费的营销活动，从而扩大影响。此类别聚焦由某一个重要时机/时刻触发、受此驱动\n展开营销活动、并达成既定目标的策略性实效案例。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 58,
+    "name_zh": "新产品/服务推广",
+    "name_en": "New Product or Service Introduction",
+    "kind": "specialty",
+    "section_zh": "商业成就",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰为推广某种新产品或服务而进行的营销活动。若案例针对的是从未面世、或来自某一新兴品类中的产品或服\n务，请投报“新产品/服务推广”。若案例针对的是任何属于产品线扩展的产品或服务，请投报后者“新产品/服务线扩\n展”。\n艾菲奖定义的产品线扩展包括：\n  作为现有产品的变形，与现有产品的品牌名、品类完全一致，只是具备了某一新特征（如，口味，包装，形状，大\n小等）；\n  产品特性有调整，但价格并无显著变化的衍生产品或服务；\n  使用同一品牌名称但提供多种选择的产品（如，少糖/无糖版等）。\n说明该产品/服务所属品类的状况，新产品/服务、产品/服务线“新”在何处，该“新”属性所面临的局面。例如说明哪些方\n面是新的，“新”的价值在哪里。",
+    "definition_shared_with": 59,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 59,
+    "name_zh": "新产品/服务线扩展",
+    "name_en": "New Product or Service Line Extension",
+    "kind": "specialty",
+    "section_zh": "商业成就",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰为推广某种新产品或服务而进行的营销活动。若案例针对的是从未面世、或来自某一新兴品类中的产品或服\n务，请投报“新产品/服务推广”。若案例针对的是任何属于产品线扩展的产品或服务，请投报后者“新产品/服务线扩\n展”。\n艾菲奖定义的产品线扩展包括：\n  作为现有产品的变形，与现有产品的品牌名、品类完全一致，只是具备了某一新特征（如，口味，包装，形状，大\n小等）；\n  产品特性有调整，但价格并无显著变化的衍生产品或服务；\n  使用同一品牌名称但提供多种选择的产品（如，少糖/无糖版等）。\n说明该产品/服务所属品类的状况，新产品/服务、产品/服务线“新”在何处，该“新”属性所面临的局面。例如说明哪些方\n面是新的，“新”的价值在哪里。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 60,
+    "name_zh": "产业数字化",
+    "name_en": "Industrial Digitalisation",
+    "kind": "specialty",
+    "section_zh": "商业成就",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰通过利用数字和信息技术，成功实现产业自动化、智能化或网络化转型升级，并且取得商业目标\n的 To B / To C / To G 服务与体验案例。参赛作品需阐明数字科技是如何帮助品牌或企业降本增效、提升服务\n或营销水平，以及实现用户增长、资产增值、商业价值增长、推动产业升级等方面的成果。\n商务&购物者营销 COMMERCE & SHOPPER\n该部分意在表彰通过购物者互动与购买链路引导促成转化、达成实效的整合营销案例。该类别案例的洞察与策略部分，\n需确保突出消费者的动机、态度、行为和购物场景。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "requires_digital_transformation",
+      "value": true,
+      "note": "须通过数字和信息技术实现产业自动化/智能化/网络化转型"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 61,
+    "name_zh": "数字商务（原电子商务）",
+    "name_en": "Digital Commerce",
+    "kind": "specialty",
+    "section_zh": "商务和购物者营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰有效使用洞察、策略、创意和分析，从而促成数字购物转化的案例。品牌/零售商通过数据运用和对购物者\n的深度理解，从而在数字系统中获得成功。\n在此类别语境下，达成实效的案例应将自身对购物者深刻的认知与数字营销实践相结合，提升线上转化。案例须立足购\n物者洞察、并以购物者为导向。务必阐明其此营销活动投放市场的策略。该类别案例的实效性仅从数字商务维度进行评\n判。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "shopper_conversion_focus"
+    ]
+   },
+   {
+    "number": 62,
+    "name_zh": "挑战者品牌解决方案",
+    "name_en": "Challenger Brand Solution",
+    "kind": "specialty",
+    "section_zh": "商务和购物者营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别适用于相对小型或新兴的品牌：\n  直面品类领域中的知名领军品牌；\n  挑战有巨大蓄能的老品牌；\n  进驻一个新产品/服务领域，对阵对阵占据主导的品牌。\n只有在其产品/服务所处品类市场份额低于15%的品牌，才满足该类别定义的“挑战者”。\n案例需详述其面对的商业挑战、竞争环境，及在此环境下如何达成商业目标。务必阐明品牌所处的整体竞争格局，从而\n论证参赛品牌是名副其实的挑战者；若未充分证明这点，评委将酌情扣分。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "market_share_max_pct",
+      "value": 15,
+      "note": "只有市场份额低于15%的品牌才满足该类别定义的挑战者"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "competitive_position_proof",
+     "shopper_conversion_focus"
+    ]
+   },
+   {
+    "number": 63,
+    "name_zh": "单一零售商",
+    "name_en": "Single Retailer",
+    "kind": "specialty",
+    "section_zh": "商务和购物者营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别适用于有着量身定制的针对零售商特定的创意，并在单一零售连锁链中实施该创意的营销活动。该类别的案例需\n提供关于如何针对特定零售商以及该零售商顾客，有效地设计方案的洞察。参赛者需要详述影响该零售商品牌的特定的\n购物者障碍，以及他们如何通过定制化方案为该特定零售商解决这些问题障碍。相关案例包含:\n  大型卖场；\n  超市；\n  药店；\n  其他\n其他包括仓储会员店，超值连锁店，电商专营店，专营店包括消费性电子产品、硬件产品、办公产品、体育用品等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "shopper_conversion_focus"
+    ]
+   },
+   {
+    "number": 64,
+    "name_zh": "O2O   Online To Offline",
+    "name_en": "",
+    "kind": "specialty",
+    "section_zh": "商务和购物者营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "投报案例需结合电子商务与实体商务，通过线上营销线上购买带动线下经营和线下消费。 案例需说明如何通过特定的内\n容和策略，如促销、打折、提供信息、服务预订等方式，触达线上用户并将其转换为品牌的线下客户，案例同时需说明\n如何为受众提供线下的体验从而持续健康运营。\n此类案例适合到店消费的商品和服务，比如餐饮、健身、看电影和演出、美容美发、摄影等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "shopper_conversion_focus"
+    ]
+   },
+   {
+    "number": 65,
+    "name_zh": "即时零售",
+    "name_en": "Instant-Delivery Online Retail",
+    "kind": "specialty",
+    "section_zh": "商务和购物者营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "案例需依托即时零售（指以即时配送体系为基础的高时效性到家消费业态）模式而开展的营销活动。案例应当阐明品\n牌、零售商或平台如何借助各自优势，强化线上线下的协同运营能力，如通过技术系统、配送系统、品类规划、店内服\n务等提升运营效率，优化组织流程；\n案例需阐述如何通过数据分析和定制化的营销策略（如个性化推荐、促销活动和会员制度等），创造需求场景，实现转\n化；如何与其他企业或品牌开展合作，进而拓展业务范围和增加销售渠道，如与物流公司、社区商店、电商平台等合\n作，共同提供即时零售服务，满足消费者的多层次即时需求，提升品牌形象，培养消费者的忠诚度。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "shopper_conversion_focus"
+    ]
+   },
+   {
+    "number": 66,
+    "name_zh": "全渠道购物者方案",
+    "name_en": "Omni-Channel Shopper Solution",
+    "kind": "specialty",
+    "section_zh": "商务和购物者营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰品牌/商家致力于打造卓有成效、链路完整的全渠道购物者方案，从而取得持续商业成功。案例需阐述\n品牌/ 商家如何在参与策略中串联各环节， 以在整个购买路径中创造简洁明了、紧密无缝和富有实效的体验。\n可包括店内、线上、客服、忠诚计划（如会员机制）、移动应用 、送货服务、社交媒体、购物通道布局等。案例\n需阐明，从初始到最终购买，这些渠道是如何相互关联、作用，从而成功打造一个全面整合的购物者旅程 。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "shopper_conversion_focus"
+    ]
+   },
+   {
+    "number": 67,
+    "name_zh": "零售媒体",
+    "name_en": "Retail Media",
+    "kind": "specialty",
+    "section_zh": "商务和购物者营销",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别旨在表彰展示零售媒体网络与品牌合作所取得的营销实效。合作既可以在数字媒体上进行，也可以在店内\n进行。利用多种媒体形式（如数字显示、移动应用、社交媒体等）与消费者进行互动，以提升购物体验、传递品\n牌信息并最终促进销售。\n营销创新解决方案\nMARKETING INNOVATION SOLUTIONS\n本类别旨在表彰那些独具匠心的单一营销与系列商业举措，或是全面而深远的营销战略项目。所有关于产品、服\n务或商业层面的新颖行动与商业构思都可以参赛，这些案例应显著增强市场地位，提升品牌影响力。\n如果传播（communication ）部分是案例营销组合（marketing mix）中的重要构成因素,请移至其他类别投报。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "shopper_conversion_focus"
+    ]
+   },
+   {
+    "number": 68,
+    "name_zh": "商业创新",
+    "name_en": "Business Innovation",
+    "kind": "specialty",
+    "section_zh": "营销创新解决方案",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别旨在表彰通过优化企业的商业逻辑、渠道布局、品牌策略或运营规划等内容，成功推动品牌或企业达成曝\n光增长、销量突破或任何其他目标的单一或完整的营销方案。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 69,
+    "name_zh": "产品/服务创新",
+    "name_en": "Product/Service Innovation",
+    "kind": "specialty",
+    "section_zh": "营销创新解决方案",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "符合此类别定义的活动包括：产品包装、外观和设计变化；产品操作或功能升级；产品迭代；品类创新；用户服\n务创新等。参赛案例应当阐释产品或服务所具有的创新属性以及其引发的积极市场状况。包括有哪些特定的创新\n属性? 为什么此创新属性很重要?",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 70,
+    "name_zh": "客户体验",
+    "name_en": "Customer Experience",
+    "kind": "specialty",
+    "section_zh": "营销创新解决方案",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别旨在表彰那些在营销和商业活动中关注和增强客户体验的举措，单一营销与商业举措，或是全面而深远的\n营销战略项目均可参赛。这些案例应在提升品牌、产品或服务的市场地位方面发挥特别积极的作用。\n客户体验可包括以下实践：围绕客户体验展开的设计、用户体验（UX）革新，如流程设计优化、软件界面和交互\n方式优化升级等，旨在为用户带来更加直观、流畅的使用体验；技术领域，通过引入前沿技术，如人工智能、大\n数据分析等，提升客户体验的个性化与智能化水平；消费者参与产品开发的创新模式，积极吸纳消费者意见和建\n议，确保产品更加贴近市场需求；忠诚度计划的引入或优化，通过构建完善的会员体系、推出积分兑换等激励措\n施，增强消费者的品牌归属感与忠诚度；引入新的分销渠道，拓展销售触点，提升品牌曝光度和市场份额。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 71,
+    "name_zh": "企业人格化营销",
+    "name_en": "Personification-based Corporate Marketing",
+    "kind": "specialty",
+    "section_zh": "营销创新解决方案",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰品牌通过虚拟偶像/IP 人设、情感化内容矩阵及 AI 交互系统，构建具有人格特征的品牌形象（如性格\n标签/ 情感计算）。案例需详述如何以拟人化叙事激活用户情感共鸣，形成\" 人设塑造-情感连接-行为转化\" 的闭环\n链路，实现品牌心智渗透与用户忠诚度提升的品效合一成果。\n数字 DIGITAL\n该类表彰将数据、技术及所有形式创意的最有效融合并最大化调动受众参与，及促成多种转化的实效案例",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 72,
+    "name_zh": "社交媒体  - 产品",
+    "name_en": "Social Media - Products",
+    "kind": "specialty",
+    "section_zh": "数字",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别适用于明确目的，是使用社交作为主要接触点或以社交为核心的活动。专门设计用于利用与社会相关的消\n费者和社会影响的想法。评委需要清楚了解为何社交是解决客户需求的正确选择，社交活动可量化数据，及其产\n生的实质性商业成果。仅仅计算产品展示、点赞数或分享数是不够的，参赛者应通过社交对受众行为或感知的直\n接影响来衡量和证明社交的商业价值，并证明与所取得的业务成果的业务性。",
+    "definition_shared_with": 73,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "platform_native_mechanism"
+    ]
+   },
+   {
+    "number": 73,
+    "name_zh": "社交媒体  - 服务",
+    "name_en": "Social Media - Services",
+    "kind": "specialty",
+    "section_zh": "数字",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别适用于明确目的，是使用社交作为主要接触点或以社交为核心的活动。专门设计用于利用与社会相关的消\n费者和社会影响的想法。评委需要清楚了解为何社交是解决客户需求的正确选择，社交活动可量化数据，及其产\n生的实质性商业成果。仅仅计算产品展示、点赞数或分享数是不够的，参赛者应通过社交对受众行为或感知的直\n接影响来衡量和证明社交的商业价值，并证明与所取得的业务成果的业务性。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "platform_native_mechanism"
+    ]
+   },
+   {
+    "number": 74,
+    "name_zh": "互动社群  - 产品",
+    "name_en": "Engaged Community - Products",
+    "kind": "specialty",
+    "section_zh": "数字",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰实现了有效互动的社群管理案例。参赛品牌通过在社交媒体创建内容，设置体验，搭建平台，创建新\n闻互动（回帖）等方式来有效管理社群，从而实现其社群以与品牌目标直接相关的方式，得以发展、受众参与、\n分享、互动，及扩大信息。参赛案例需详细阐述如何管理社群，如何定义围绕社群的有效性，具体实现了什么   成\n果，以及互动社群为何对品牌/ 业务的发展很重要。",
+    "definition_shared_with": 75,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "platform_native_mechanism"
+    ]
+   },
+   {
+    "number": 75,
+    "name_zh": "互动社群  - 服务",
+    "name_en": "Engaged Community - Services",
+    "kind": "specialty",
+    "section_zh": "数字",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰实现了有效互动的社群管理案例。参赛品牌通过在社交媒体创建内容，设置体验，搭建平台，创建新\n闻互动（回帖）等方式来有效管理社群，从而实现其社群以与品牌目标直接相关的方式，得以发展、受众参与、\n分享、互动，及扩大信息。参赛案例需详细阐述如何管理社群，如何定义围绕社群的有效性，具体实现了什么   成\n果，以及互动社群为何对品牌/ 业务的发展很重要。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "platform_native_mechanism"
+    ]
+   },
+   {
+    "number": 76,
+    "name_zh": "DTC - 直接面向消费者",
+    "name_en": "Direct to Consumer",
+    "kind": "specialty",
+    "section_zh": "数字",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别聚焦直接面向消费者的实效营销成就。任何细分市场，任何类型的产品和服务的 DTC 模式和营销案例都可\n投报。参赛者需阐述品牌如何通过技术、数据、互联网线上渠道和或线下渠道触达消费者，达成销售转化，客群\n价值最大化，品牌拥护等商业目标。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "dtc_model_required",
+      "value": true,
+      "note": "须为DTC模式"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "platform_native_mechanism"
+    ]
+   },
+   {
+    "number": 77,
+    "name_zh": "用户共建",
+    "name_en": "Co-Creative Ecosystem",
+    "kind": "specialty",
+    "section_zh": "数字",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰品牌基于用户行为数据与需求图谱，通过 UGC 裂变工坊、会员共创计划等机制，实现产品迭代与内容\n生产的用户深度参与。案例需详述如何以游戏化机制激活用户创作力，构建\"需求采集-内容生产-商业反哺\"的共生\n链路，实现品牌心智占领与用户资产增值的双向赋能。\n媒体 MEDIA\n这些类别反映了使用媒体在提高效率方面日益重要的地位，并将由跨品牌、代理机构和媒体所有者的媒体行业专\n家进行评判。提交的内容必须涉及媒体渠道选择和衡量方法。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "platform_native_mechanism"
+    ]
+   },
+   {
+    "number": 78,
+    "name_zh": "数据驱动",
+    "name_en": "Data Driven",
+    "kind": "specialty",
+    "section_zh": "媒体",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "数据驱动的媒体是应用数据和/ 或技术在正确的时刻联结品牌和受众。  这些案例应该证明他们如何专门利用数据\n来驱动创意或优化媒体以提升业务成果( 品牌 KPI、投资回报率、绩效营销测量等)。\n该类别表彰包括自动化、人工智能在内的数据的相互作用和应用，吸引精确的受众参与或传达品牌信息并取得最\n佳结果。您的案例必须详细说明，为实现品牌和商业目标，数据在创意和/或媒体策略中的作用。\n参赛案例可以是:\n  利用个性化、定制的创意信息。\n  通过清晰的测量和分析，解释数据如何影响媒体计划。\n  展示从用于了解受众的数据中获得的洞察力。\n78. 媒体内容合作 Media Content Partnerships",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "media_channel_role"
+    ]
+   },
+   {
+    "number": 79,
+    "name_zh": "媒体内容合作",
+    "name_en": "Media Content Partnerships",
+    "kind": "specialty",
+    "section_zh": "媒体",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别侧重于表彰，通过品牌和社交媒体公司/平台间的合作，以创造和激发超过传统广告的原生媒体内容的营销\n案例。该合作类案例应展示社交媒体公司通过整合传播渠道，输出创新性和策略性内容为中心的综合沟通渠道为\n广告主和消费者建立创新性联系。每一条被激活的渠道对实现整体实效和营销力度至关重要，且应能体现这家媒\n体公司的价值。获奖案例代表了熟练应用媒体公司创新和渠道优势连接受众的广告主和媒体伙伴。案例也需详述\n合作背后的战略考量，包括为何选择该合作伙伴？清楚地详细说明合作伙伴的选择过程，并解释该合作是如何带\n来符合品牌目标的结果。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "media_channel_role"
+    ]
+   },
+   {
+    "number": 80,
+    "name_zh": "媒体创意",
+    "name_en": "Media Idea",
+    "kind": "specialty",
+    "section_zh": "媒体",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "旨在表彰由媒体主导的创意产生实效成果的营销案例。普遍认知的创意，和由媒体主导的创意，两者之间的边界\n往往难以分隔，某些情况下媒体创意推动了营销活动的成功。当然，媒体本身天然不能离开内容而存在，但该类\n别旨在表彰以媒体创意主导的案例，即媒体和信息的整合带来了成果。\n※  请注意：该类别主旨表彰的媒体创意，是足以成为营销计划的起源，如缺失，将导致营销计划失败的战略性\n媒体创意。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "media_channel_role"
+    ]
+   },
+   {
+    "number": 81,
+    "name_zh": "媒介创新  - 新兴渠道",
+    "name_en": "Media Innovation - Emerging & New Channels",
+    "kind": "specialty",
+    "section_zh": "媒体",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰那些具有独特社交媒介洞察与创意的案例，或是突破了某种既有社交媒介渠道的常规运用方式，或者\n创造了某种新渠道。参赛作品须打破传统的社交媒介运用模式，吸引受众并与之有效互动。参赛案例不论采用单\n一执行还是多重执行，通过一种渠道还是多种渠道的媒介，作品必须展示新媒介的运用，或者现有媒介的创新应\n用。所有参赛案例必须具体说明创新之处和取得的成果，并清晰阐明如何创新使用媒体&媒体策略。\n季节、话题和年度事件\nSEASONAL& TOPICAL & ANNUAL EVENTS",
+    "definition_shared_with": 82,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "media_channel_role"
+    ]
+   },
+   {
+    "number": 82,
+    "name_zh": "媒介创新  - 现有渠道",
+    "name_en": "Media Innovation - Existing Channels",
+    "kind": "specialty",
+    "section_zh": "媒体",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰那些具有独特社交媒介洞察与创意的案例，或是突破了某种既有社交媒介渠道的常规运用方式，或者\n创造了某种新渠道。参赛作品须打破传统的社交媒介运用模式，吸引受众并与之有效互动。参赛案例不论采用单\n一执行还是多重执行，通过一种渠道还是多种渠道的媒介，作品必须展示新媒介的运用，或者现有媒介的创新应\n用。所有参赛案例必须具体说明创新之处和取得的成果，并清晰阐明如何创新使用媒体&媒体策略。\n季节、话题和年度事件\nSEASONAL& TOPICAL & ANNUAL EVENTS",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "media_channel_role"
+    ]
+   },
+   {
+    "number": 83,
+    "name_zh": "危机应对/ 关键转变",
+    "name_en": "Crisis Response / Critical Pivot",
+    "kind": "specialty",
+    "section_zh": "季节、话题和年度事件",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "此类别表彰为品牌为积极应对当前形势下的显著性结构变化、文化转变、危机时刻，而进行的营销计划或商业活\n动转变。参赛者需向评委展示关键转变和框架，对外信息/营销战役如何转变，团队如何调整生产和市场拓展的规\n划等。需要展现所采取的行动对于品牌的实效性。所投报案例可包括定位转移、资产组合管理变化、数字化进程\n加速等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 84,
+    "name_zh": "热点事件",
+    "name_en": "Current Events",
+    "kind": "specialty",
+    "section_zh": "季节、话题和年度事件",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别适用于通过针对当前新闻&事件（如世界杯、奥运会、经济形势等），有效利用事件的即时相关性、国民关\n注度等特征并运用精准的营销/ 公关策略的案例。注：年度活动应进入季节营销类别。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 85,
+    "name_zh": "季节营销  - 产品",
+    "name_en": "Seasonal Marketing - Products",
+    "kind": "specialty",
+    "section_zh": "季节、话题和年度事件",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别适用于季节、节假日及年度活动为营销者提供以目标受众时节性需求为基础，建立策略性营销机会的案\n例。以上两个类别旨在表彰有效利用季节、节假日及年度活动来推动成果达成的案例。\n公关 PUBLIC RELATIONS\n此部分表彰通过策略性、创意性的沟通和互动，影响公众或特定群体的意见或推动相关的转变，建立、保护并强\n化品牌或组织的业务和声誉，参赛作品应展现创新性的洞察和基于赢得媒体（earned media）的策略。",
+    "definition_shared_with": 86,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 86,
+    "name_zh": "季节营销  - 服务",
+    "name_en": "Seasonal Marketing - Services",
+    "kind": "specialty",
+    "section_zh": "季节、话题和年度事件",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别适用于季节、节假日及年度活动为营销者提供以目标受众时节性需求为基础，建立策略性营销机会的案\n例。以上两个类别旨在表彰有效利用季节、节假日及年度活动来推动成果达成的案例。\n公关 PUBLIC RELATIONS\n此部分表彰通过策略性、创意性的沟通和互动，影响公众或特定群体的意见或推动相关的转变，建立、保护并强\n化品牌或组织的业务和声誉，参赛作品应展现创新性的洞察和基于赢得媒体（earned media）的策略。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 87,
+    "name_zh": "社交互动",
+    "name_en": "Social Engagement",
+    "kind": "specialty",
+    "section_zh": "公关",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "此类案例表彰巧妙运用社交媒体/数字平台开展的公关企划和活动。案例应当展现如何妥善运用社交媒体提升品牌\n的认知度和受拥护度；或如何通过与品牌的在线社群/目标受众的互动，成功在社群中树立声誉、信任和权威。又\n或者如何以一种创造性和有意义的方式响应并参与世界性事件、公共事务和其他现实世界实时活动的对话。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "earned_media_and_public_opinion"
+    ]
+   },
+   {
+    "number": 88,
+    "name_zh": "媒体关系",
+    "name_en": "Media Relations",
+    "kind": "specialty",
+    "section_zh": "公关",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "以新闻报道为企划重点的公关活动。该案例须阐述以高度创新的方式，吸引、教育或影响内容创作者。案例应解\n释媒体成果的相关性，  包括深度、质量和信息。评委将考虑该这一策略如何取得或帮助取得期望的效果。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "earned_media_and_public_opinion"
+    ]
+   },
+   {
+    "number": 89,
+    "name_zh": "危机管理",
+    "name_en": "Crisis Management",
+    "kind": "specialty",
+    "section_zh": "公关",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别表彰针对可能影响品牌或组织信誉和声誉的危机事件的应对措施和/或处理办法。作品应描述应对危机的整\n体规划，开展危机沟通的策略和执行，  以及如何达到预期结果的。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "earned_media_and_public_opinion"
+    ]
+   },
+   {
+    "number": 90,
+    "name_zh": "活动运用",
+    "name_en": "Use of Events",
+    "kind": "specialty",
+    "section_zh": "公关",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "通过线下活动的形式（如：发布会、现场直播活动、节日庆典、音乐会、街头艺术等）来构建品牌价值、声誉或\n做为更大规模品牌公关策略的一个环节，以收获关注并达到期望的目标。案例应当阐明所选活动于品牌的关联度\n和基于此活动产生的相关数据。\n公益影响 SOCIAL IMPACT\n表彰解决了社会议题或推动现有项目继续发展的营销案例，任何以某种方式回馈社会的营销活动均可投报，可以\n是营利性质也可以是非盈利性质的，需阐明可量化的结果，任意单一营销活动或整合性营销活动均可投报。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "earned_media_and_public_opinion"
+    ]
+   },
+   {
+    "number": 91,
+    "name_zh": "社会公益  - 品牌",
+    "name_en": "Social Good - Brands",
+    "kind": "specialty",
+    "section_zh": "公益影响",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "该类别旨在表彰那些利用其传播平台将世界变得更美好的品牌。参赛案例应具备这样的特点：以营利为目的企业\n把商业目标与社会效益（健康、教育、社区、家庭等）紧密结合在一起，并进而正面影响公司整体品牌战略，最\n终产生积极的商业和社会价值。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "requires_social_benefit_link",
+      "value": true,
+      "note": "须知该类别适用于营利企业，且须把商业目标与社会效益紧密结合"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "earned_media_and_public_opinion"
+    ]
+   },
+   {
+    "number": 92,
+    "name_zh": "社会公益  - 非营利机构",
+    "name_en": "Social Good - Non-Profit",
+    "kind": "specialty",
+    "section_zh": "公益影响",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "此类别适用于由非营利机构、协会或政府有效推动某项公共服务、福利措施积极变革并成功回馈组织宗旨的案\n例，参赛者需详述该案例队社会产生的可量化的影响和已被证实的成果。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "requires_non_profit",
+      "value": true,
+      "note": "该类别适用于非营利机构、协会或政府推动的公共服务/福利变革"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "earned_media_and_public_opinion"
+    ]
+   },
+   {
+    "number": 93,
+    "name_zh": "环境公益",
+    "name_en": "Environmental Good",
+    "kind": "specialty",
+    "section_zh": "公益影响",
+    "track_id": null,
+    "track_zh": null,
+    "definition_zh": "适用于通过结合环保观念，从而引导受众选择更为环保、可持续性行为、和/或增加受众对可持续性产品/服务选择\n的需求，并提供可量化的标准。在该类别脱颖而出的获奖者展示了结合可持续发展战略的营销活动如何对品牌和\n环境产生积极的影响。投报该类别的案例，其主要战略目标之一必须转变为改变受众行为以实现更环保的可持续\n发展，同时具有环保意识的信息必须成为营销的一部分。\n※  请注意：参赛者应可持续发展目标如何与整体品牌和业务战略相关联。\n此类别关注更加环保和可持续性的行为转变，评审时考量了以下因素：\n  认知：受众意识到可持续性产品，服务或者行动；\n  试用：首次尝试可持续性的产品或服务；\n  产品服务的替代：开始使用更加可持续性的产品或服务；\n  使用方法的改变：以更加可持续的方式使用产品或服务。\n战略赛道\n电竞营销赛道 E-SPORTS MARKETING\n该类别适用于借助电竞的元素/ 形式，建立产品与客户的情感联系，或进一步开展后续一系列链接和转化的营销活\n动。电竞元素可以是电竞赛事、电竞 IP、电竞战队及选手、电竞直播、电竞媒体、电竞文创等电竞生态相关元\n素。同时也包括针对电竞 IP 本身的营销活动。\n投报的案例需要说明是如何在传递电竞精神的同时，让受众“潜移默化” 地接受品牌信息和产品价值，并取得成功\n的营销成果。\n专项类",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "requires_behavior_change_objective",
+      "value": true,
+      "note": "主要战略目标之一必须转变为改变受众行为以实现环保可持续"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "earned_media_and_public_opinion"
+    ]
+   },
+   {
+    "number": 94,
+    "name_zh": "电竞营销  - 品牌整合与电竞合作",
+    "name_en": "Brand Integration and Sports Partnerships",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "E-SPORTS MARKETING",
+    "track_zh": "电竞营销赛道",
+    "definition_zh": "该类别表彰通过高效整合营销渠道资源以及电竞合作有效触达目标受众的品牌。\n投报案例应详细说明品牌是如何合作电竞赛事、战队、选手、KOL、以及其他电竞生态，同时需阐述合作伙伴关系\n背后的战略理由——为什么选择这个合作伙伴？其与品牌整体战略的关联性。清楚地阐释合作伙伴的选择过程，并\n解释这种合作关系如何帮助品牌达成曝光增长、销量突破或任何其他目标的整合营销案例。\n※  请注意：品牌与具备商业价值的成熟电竞 IP（赛事、战队、选手、KOL、电竞直播、电竞媒体等）的合作均\n属于此表彰范围。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "partner_selection_rationale"
+    ]
+   },
+   {
+    "number": 95,
+    "name_zh": "电竞营销  - 品牌内容",
+    "name_en": "Brand Content",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "E-SPORTS MARKETING",
+    "track_zh": "电竞营销赛道",
+    "definition_zh": "该类别旨在表彰由品牌内容衍生出运用匹配的电竞元素的核心创意，且该核心创意内容完美诠释品牌的主张的案\n例。参赛者必须详述运用电竞元素所创造的内容，以及其与整个品牌、商业目标的相关性，该创意内容是如何分\n发给目标受众和被受众分享的，以及其为品牌与商业所达成的结果。注意: 评委希望了解案例为何将品牌内容作为\n策略点。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 96,
+    "name_zh": "电竞营销  - 品牌体验",
+    "name_en": "Brand Experience",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "E-SPORTS MARKETING",
+    "track_zh": "电竞营销赛道",
+    "definition_zh": "该类别旨在展现参赛案例如何结合电竞来创造品牌体验。参赛案例须将品牌或产品呈现给特定受众，并与之产生\n互动，从而达成营销目标。可以通过改造产品，打造全新营销场景（线上或线下均可），或是设计一款新玩法，\n营造虚拟现实体验、互动体验或沉浸式体验来推广新产品、传播品牌个性、拉近品牌与客户之间的距离。参赛案\n例应当展现品牌如何创造生动和深入的体验，从而令消费者与之建立深度联系。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "audience_participation_at_core"
+    ]
+   },
+   {
+    "number": 97,
+    "name_zh": "电竞营销  - 跨界营销",
+    "name_en": "Crossover",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "E-SPORTS MARKETING",
+    "track_zh": "电竞营销赛道",
+    "definition_zh": "该类别表彰品牌通过电竞粉丝经济生态实现破圈传播的标杆案例。案例需重点阐释品牌如何通过电竞 IP 授权、选\n手代言、赛事赞助等深度合作形式，实现用户心智占领与商业价值的双重收割，量化呈现电竞营销的独特成效：\n如赛事期间用户活跃度增幅、虚拟商品销售转化率、社交媒体话题声量指数级增长，以及线下门店客流与线上销\n量同步提升的\"品效协同\"模型。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 98,
+    "name_zh": "电竞营销  - 沉浸式体验营销",
+    "name_en": "Immersive Experience Marketing",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "E-SPORTS MARKETING",
+    "track_zh": "电竞营销赛道",
+    "definition_zh": "该类别表彰品牌通过 VR/AR 技术、元宇宙场景及电竞 IP 授权，打造虚实融合的沉浸式体验（如虚拟赛事场馆、AR\n战队互动展馆），实现用户心智深度占领与商业转化的创新实践。需量化呈现用户体验时长（如 VR 场馆平均停留\n时间）、互动参与度（如 AR 任务完成率）、转化效能（如赛事周边销量占比）及社群沉淀（如元宇宙空间会员增\n长）。重点关注 AI 驱动的动态内容生成、多模态交互设计如何提升沉浸感，并通过\"体验-社交-消费\"闭环实现品\n牌价值长效沉淀。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "audience_participation_at_core"
+    ]
+   },
+   {
+    "number": 99,
+    "name_zh": "电竞营销  - 小预算",
+    "name_en": "Small Budgets",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "E-SPORTS MARKETING",
+    "track_zh": "电竞营销赛道",
+    "definition_zh": "投报该类别的案例必须为此品牌在该投放期内实施的唯一营销活动。符合参赛资格的案例预算范围如下：\n  城市范围：不超过 100 万人民币；\n  省级范围：不超过 200 万人民币；\n  全国范围：不超过 500 万人民币。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "budget_cap_cny",
+      "value": 1000000,
+      "scope": "city"
+     },
+     {
+      "rule": "budget_cap_cny",
+      "value": 2000000,
+      "scope": "province"
+     },
+     {
+      "rule": "budget_cap_cny",
+      "value": 5000000,
+      "scope": "national"
+     },
+     {
+      "rule": "sole_activity_in_period",
+      "value": true
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "budget_threshold"
+    ]
+   },
+   {
+    "number": 100,
+    "name_zh": "电竞营销  - 持续成功",
+    "name_en": "Sustained Success",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "E-SPORTS MARKETING",
+    "track_zh": "电竞营销赛道",
+    "definition_zh": "至少连续三年取得持续成功的营销活动方可参赛。案例至少需包含三年的创意作品及成果，并须涵盖本届竞赛年度\n（在参赛资格周期内即可）的成果。作品在策略与创意实施上必须拥有共同目标；且核心执行元素（如代言人、歌曲、\n主题、标语等）需保持延续，以证明其长期有效性。作为报赛材料的一部分，需具体说明该作品如何随时间演进（例如\n媒体选择、目标受众、洞察、新产品 / 服务等）。请回答初始年度的所有问题，并阐述后续为何以及如何随时间发生变\n更。\n※   请注意：此类别投报请使用“持续成功类”专用参赛表，其创意视频可长达4分钟。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "consecutive_years_min",
+      "value": 3
+     },
+     {
+      "rule": "dedicated_form",
+      "value": "持续成功类"
+     },
+     {
+      "rule": "video_max_seconds",
+      "value": 240
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "multi_year_continuity"
+    ]
+   },
+   {
+    "number": 101,
+    "name_zh": "电竞营销  - 活动运用",
+    "name_en": "Use of Events",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "E-SPORTS MARKETING",
+    "track_zh": "电竞营销赛道",
+    "definition_zh": "通过线下活动的形式（如：发布会、现场直播活动、节日庆典、音乐会、街头艺术等）来构建品牌价值、声誉或\n做为更大规模品牌公关策略的一个环节，以收获关注并达到期望的目标。案例应当阐明所选活动于品牌的关联度\n和基于此活动产生的相关数据。\n该类别表彰品牌通过电竞主题线下活动构来构建品牌价值、声誉或做为更大规模品牌公关策略的创新实践。案例\n要求申报方案需阐明活动与品牌电竞战略的协同性， 需量化呈现活动对Z世代用户触达率（如现场参与转化率、线\n上直播弹幕互动量）、声量指数级增长（如赛事话题#量、虚拟商品销量）及长效价值沉淀。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 102,
+    "name_zh": "电竞营销  - 社交平台互动",
+    "name_en": "Social Media Engagement",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "E-SPORTS MARKETING",
+    "track_zh": "电竞营销赛道",
+    "definition_zh": "该类别表彰品牌通过电竞直播弹幕互动、虚拟社群 UGC 共创、赛事打赏分成等社交玩法，实现用户心智占领与转\n化增长的创新实践。需量化呈现互动率（如弹幕参与度）、用户裂变系数（如话题@量）、商业转化率（如打赏\n带动的联名销量）及社群沉淀价值（如专属电竞粉丝团规模）。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 103,
+    "name_zh": "电竞营销  - IP 运营",
+    "name_en": "IP Incubation",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "E-SPORTS MARKETING",
+    "track_zh": "电竞营销赛道",
+    "definition_zh": "该类别表彰通过成功开发构建、激活培养或塑造推广具备商业价值的 IP，从而建立品牌与客户的情感联系，达成\n品牌商业目标。参赛作品需详述如何塑造和养成 IP，来实现品牌价值传递，并最终实现品牌目标的。\n※  请注意：电竞 IP 的界定，不仅包括电竞赛事、电竞战队及选手、电竞直播、电竞媒体、电竞新文创等，也\n包括具备商业价值的作品、符号、设计等。无论是品牌，代理公司，还是互联网平台，媒体等均可投报。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 104,
+    "name_zh": "电竞营销  - 热点事件",
+    "name_en": "Current Events",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "E-SPORTS MARKETING",
+    "track_zh": "电竞营销赛道",
+    "definition_zh": "该类别表彰有效利用时事的即时性、利益和价值，针对时事进行的有目的性的营销和公关战略的案例。时事包括\n电竞赛事、电竞战队、电竞选手等相关的事件（如：KPL 赛事、LPL 赛事、战队夺冠、选手退役等）。可以是利用\n热点追热点，也可以是创造热点。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 105,
+    "name_zh": "电竞营销  - 电竞新文创",
+    "name_en": "Neo-Culture Creativity",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "E-SPORTS MARKETING",
+    "track_zh": "电竞营销赛道",
+    "definition_zh": "该类别旨在表彰基于电竞 IP 自身文化进行延伸，衍生出的新文化产品的营销案例；或基于电竞 IP，融合其他多元\n文化主题，利用不同载体( 影视、文学、动漫、地产、旅游等) 构建创新的电竞文化内容、文化产品或演化出全 新\n的电竞文创产业生态的营销案例。\n(如:电竞周边产品、电竞动漫、电竞酒店、电竞综合产业中心、电竞教育等)该类别需说明电竞 IP 自身是如何进行\n文化延伸的，衍生出的新文化产品的文化与产业价值；文化元素或载体是如何与电竞结合，成功且充分将多元文\n化与电竞进行融合和再创造，并展现该案例传递的文化与产业价值。\n私域营销赛道 PRIVATE TRAFFIC\n该赛道表彰致力于服务私域用户，结合精细化运营（会员运营、内容运营、活动运营、社群运营等）和数字化能\n力的实效营销玩法，联动全域营销，构建及运营品牌私域生态，重塑品牌和消费者数字化运营体验闭环，实现用\n户价值（ARPU 值、复购率、LTV 提升等）和消费者数据资产的长期、可持续性、健康的增长。\n专项类",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 106,
+    "name_zh": "私域营销  - 精细化运营",
+    "name_en": "Precision Operation",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "PRIVATE TRAFFIC",
+    "track_zh": "私域营销赛道",
+    "definition_zh": "该类别表彰在私域用户池中，通过 MA、SaaS 等创新手段对传统 CRM 进行迭代，完善用户旅程管理，实现精细化\n运营的案例，或通过打通各职能部门以及共性连接上下游，实现信息的互联互通与合作，最终服务消费者的案\n例。参赛者必须详述精细化运营的具体实施与优化，解释其作用和目的，以及最终达成的结果。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "owned_traffic_asset"
+    ]
+   },
+   {
+    "number": 107,
+    "name_zh": "私域营销  - 导购赋能",
+    "name_en": "Smart Sales Advisor",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "PRIVATE TRAFFIC",
+    "track_zh": "私域营销赛道",
+    "definition_zh": "该类别表彰通过私域赋能企业销售体系，以 1V1 的导购、云导购等为抓手进行线上线下全渠道获客，加强与私域\n用户的线上互动和沟通，最终达到销量增长或提高私域用户的复购率的案例。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "owned_traffic_asset"
+    ]
+   },
+   {
+    "number": 108,
+    "name_zh": "私域营销 - 品牌内容与互动",
+    "name_en": "Brand Content and Interaction",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "PRIVATE TRAFFIC",
+    "track_zh": "私域营销赛道",
+    "definition_zh": "该类别表彰能够以原生品牌内容来有效触达受众的营销案例。该内容应可供受众消费体验，并具有娱乐性或带有\n丰富的信息促使消费者进行探索搜寻。实现建立用户信任链和关系链，进而提升用户对于品牌的认知度、美誉\n度、忠诚度，以及用户关系经营深度的案例。\n※  请注意：评委希望了解案例为何将品牌内容作为策略点，以及原生品牌内容是如何达成其商业成果的。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "content_is_strategy_point",
+     "owned_traffic_asset"
+    ]
+   },
+   {
+    "number": 109,
+    "name_zh": "私域营销-新产品/ 服务推广",
+    "name_en": "New Product or Service Introduction",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "PRIVATE TRAFFIC",
+    "track_zh": "私域营销赛道",
+    "definition_zh": "该类别表彰在私域中推广某种新产品或新服务的营销活动，包括从未面世、或来自某一新兴品类中的产品或服\n务。\n红人营销赛道  INFLUENCER MARKETING\n红人营销赛道表彰基于社交媒体、电商平台、直播平台等载体下，利用红人的影响力及其内容创作，触达目标受\n众，实现购物消费、娱乐体验、广告营销、数据服务等短期或长期的营销目标的案例。红人可以是名人明星、\nKOL、虚拟偶像、KOC、社会化媒体账号、传统媒体的官方账号、自媒体账号以及品牌自建 IP 形象、品牌自建红人\n等。报赛案例需明确阐释为何红人是解决品牌客户需求的正确选择、以及其产生的实质性商业成果。对于成果，\n请尽可能地提供除转评赞之外，更多其他性质的数据结果，并加以佐证。\n※  请注意：任何运用上述红人进行营销活动的主体均可投报，无论是品牌、代理公司；还是互联网平台、红人\n营销运营平台、机构、媒体、红人本人等。\n专项类",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "owned_traffic_asset"
+    ]
+   },
+   {
+    "number": 110,
+    "name_zh": "红人营销  – 品牌焕新",
+    "name_en": "Brand Renewal",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "INFLUENCER MARKETING",
+    "track_zh": "红人营销赛道",
+    "definition_zh": "该类别适用于品牌基于对目标受众的拆解与分析，选择对应红人合作，有效地运用红人的影响力，将品牌的新定\n位与新理念有效触达至新群体，如年轻群体的案例；或实现品牌原有人群的认知焕新。案例需明确阐释红人的运\n用与品牌焕新的商业目标的关系。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "influencer_is_core"
+    ]
+   },
+   {
+    "number": 111,
+    "name_zh": "红人营销  – 整合营销",
+    "name_en": "Integrated Marketing",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "INFLUENCER MARKETING",
+    "track_zh": "红人营销赛道",
+    "definition_zh": "该类别旨在表彰品牌通过和已选择的红人整合内外部资源，通过在 2 个以上营销渠道和平台的跨平台深度合作，\n进行全域覆盖和资源、流量整合，从而实现营销最大化的案例。参赛案例须详述品牌如何针对不同传播渠道/平台\n的特点，充分利用红人及红人生产的对应内容，在多个领域有效运用红人资源进行资源整合及多渠道传播，进而\n达成品牌整合及转化的最大化效果。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "influencer_is_core"
+    ]
+   },
+   {
+    "number": 112,
+    "name_zh": "红人营销  - 精准触达",
+    "name_en": "Precision Touch",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "INFLUENCER MARKETING",
+    "track_zh": "红人营销赛道",
+    "definition_zh": "该类别表彰品牌通过 AI 用户画像、跨平台算法匹配及动态红人矩阵，实现粉丝群体精准识别与内容高效触达的创\n新实践。需量化触达精度（如粉丝重合率）、转化效能（如种草转化率）、内容渗透率（如爆款视频完播率）及\nROI 表现（如单客 LTV 提升）。关注实时舆情监测、兴趣图谱分析等技术如何优化红人选择，并通过\"数据-内容-\n效果\"闭环实现营销资源的最优配置。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "influencer_is_core"
+    ]
+   },
+   {
+    "number": 113,
+    "name_zh": "红人营销  – 品牌内容",
+    "name_en": "Brand Content",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "INFLUENCER MARKETING",
+    "track_zh": "红人营销赛道",
+    "definition_zh": "该类别表彰以品牌内容衍生出运用匹配的红人的核心创意，且该核心创意内容完美诠释品牌主张的案例。参赛者\n必须详述运用红人所创造的内容，以及其与整个品牌、商业目标的相关性，该创意内容是如何分发给目标受众、\n如何影响受众的心智转变和被受众分享的，以及其为品牌与商业所达成的结果。\n※  请注意：评委希望了解案例为何将品牌内容作为策略点。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "content_is_strategy_point",
+     "influencer_is_core"
+    ]
+   },
+   {
+    "number": 114,
+    "name_zh": "红人营销  – 营销转化",
+    "name_en": "Marketing Conversion",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "INFLUENCER MARKETING",
+    "track_zh": "红人营销赛道",
+    "definition_zh": "该类别适用于有效运用红人来推动营销转化的案例。旨在表彰通过对品牌、线上平台（如电商）或线下平台（如\n零售服务门店、文旅类平台等）的认知分析以及对消费者的深刻理解，匹配适合的红人进行内容生产、产品推\n广，进而成功达成交易转化目标的案例。\n※  请注意：该类别评选将参照销量、成交额度等数据维度指标，参赛案例应当展现整个带货的策划、实施过程\n和关键销售数据。\n生意增长赛道 BUSINESS GROWTH\n该类别聚焦品牌通过内容营销、用户互动、趋势洞察等方式实现商业增长与生意结果的创新实践，旨在表彰那些\n独具匠心的创新商业举措，通过优化企业的商业逻辑、渠道布局、品牌策略或运营规划等内容，成功推动品牌或\n企业达成生意增长、销量突破或任何其他目标的单一或完整的营销方案。\n所有关于产品、服务或商业层面的新颖行动与商业构思都可以参赛，这些案例应显著增强企业市场认知，提升品\n牌影响力。\n专项类",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "influencer_is_core"
+    ]
+   },
+   {
+    "number": 115,
+    "name_zh": "生意增长  – 新品营销",
+    "name_en": "Product Launch Marketing",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "BUSINESS GROWTH",
+    "track_zh": "生意增长赛道",
+    "definition_zh": "该类别聚焦于品牌全新产品或服务推向市场的营销活动，针对品牌新品推广、种草营销等策略，展现通过创意内\n容、达人合作、用户互动等方式实现新品的快速破圈与销量增长。\n※  请注意：新品指上市时间不超过 3 个月的产品或服务。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "product_age_max_months",
+      "value": 3,
+      "note": "新品指上市时间不超过3个月的产品或服务"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 116,
+    "name_zh": "生意增长  – 趋势引领",
+    "name_en": "Trend Leadership",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "BUSINESS GROWTH",
+    "track_zh": "生意增长赛道",
+    "definition_zh": "该类别旨在表彰敏锐捕捉市场趋势并率先将其转化为营销优势的品牌或企业，聚焦品牌如何通过用户洞察、数据\n分析与内容生态，精准捕捉并引领消费趋势，推动品牌在市场中占据先机。可提供市场数据、舆论讨论度、品牌\n口碑、销售增长与转化等相关指标佐证。案例需详细描述趋势引领的过程及成功，若未充分证明这点，评委将酌\n情扣分。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 117,
+    "name_zh": "生意增长  – 成长型品牌营销",
+    "name_en": "Growth-Oriented Brand Marketing",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "BUSINESS GROWTH",
+    "track_zh": "生意增长赛道",
+    "definition_zh": "成长型品牌指运用创新、有效的市场策略，或因产品和服务的独特性实现突破性增长的品牌，也指快速成长的新\n消费品牌，旨在表彰通过内容营销、用户运营、品牌建设等方式，以产品与营销模式的创新在细分市场中获得竞\n争优势，实现从 0 到 1、从 1 到 10 突破的品牌。\n※  请注意：案例需重点强调品牌成长突破带来的生意增长，可通过创新性证明（创新内容并解释如何满足市\n场需求和提升竞争力）、市场表现与成长（销售增长、用户增长、用户复购率、市场份额提升、新市场拓展）\n等。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "competitive_position_proof"
+    ]
+   },
+   {
+    "number": 118,
+    "name_zh": "生意增长  – IP 营销",
+    "name_en": "IP Marketing",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "BUSINESS GROWTH",
+    "track_zh": "生意增长赛道",
+    "definition_zh": "该类别基于品牌或企业通过打造、引入或合作具有独特价值和影响力的文化、娱乐、艺术或其他形式的知识产权\n（IP），并围绕 IP 进行创意策划、内容传播和商业转化的营销模式，强调通过 IP 的吸引力、故事性和情感共鸣，\n提升品牌知名度、用户参与度和商业价值，实现品牌与 IP 之间的双向赋能。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 119,
+    "name_zh": "生意增长  – 种草营销",
+    "name_en": "Recommendation Marketing",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "BUSINESS GROWTH",
+    "track_zh": "生意增长赛道",
+    "definition_zh": "该类别表彰品牌或企业通过深度洞察目标用户群体的特征、需求、行为习惯和偏好，制定并实施精细化的用户运\n营策略，有效运用明星、博主、UGC 内容等裂变式传播，快速向目标受众传递产品/服务的优势，成功实现抢占消\n费者心智，完成品牌认知构建，收获正向口碑声量等目标。以实现消费者增长、消费者留存、消费者价值提升和\n品牌忠诚度增强，并在生意层面得到良好的反馈。评估种草营销的效果，包括种草内容的传播范围、用户参与\n度、转化率等，以及对品牌知名度、美誉度和销售增长的促进作用。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 120,
+    "name_zh": "生意增长  - 生活方式  – 产品",
+    "name_en": "Lifestyle – Products",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "BUSINESS GROWTH",
+    "track_zh": "生意增长赛道",
+    "definition_zh": "该类别旨在表彰将品牌打造成一种受众理想生活方式的营销活动。生活方式的优化可以表现在生活状态 /品质的提\n高，或者是精神感受的改善。案例应阐明受众特点、生活方式优化的核心和由此带来的价值。如何通过增强产品/\n服务体验，扩大产品/服务和生活之间的联系，提供众多的场景化体验等来让受众对产品/服务所能带来的生活方式\n产生好感，或让受众对原有“生活方式“的优化升级产生好感，进而推动业务绩效和品牌忠诚度提升。",
+    "definition_shared_with": 121,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 121,
+    "name_zh": "生意增长  -生活方式  – 服务",
+    "name_en": "Lifestyle – Services",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "BUSINESS GROWTH",
+    "track_zh": "生意增长赛道",
+    "definition_zh": "该类别旨在表彰将品牌打造成一种受众理想生活方式的营销活动。生活方式的优化可以表现在生活状态 /品质的提\n高，或者是精神感受的改善。案例应阐明受众特点、生活方式优化的核心和由此带来的价值。如何通过增强产品/\n服务体验，扩大产品/服务和生活之间的联系，提供众多的场景化体验等来让受众对产品/服务所能带来的生活方式\n产生好感，或让受众对原有“生活方式“的优化升级产生好感，进而推动业务绩效和品牌忠诚度提升。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 122,
+    "name_zh": "生意增长  - 营销破局  - 产品",
+    "name_en": "Marketing Disruptors – Products",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "BUSINESS GROWTH",
+    "track_zh": "生意增长赛道",
+    "definition_zh": "该类别此类别旨在表彰通过驱动行业前进的营销模式变革，提升商业 /品牌增长的案例。任何类型的市场变局者都\n可以投报。详述营销挑战，竞争环境，以及如何通过改变品牌/品类现有的营销式而取得成功。参赛案例应当详细\n说明如何通过改变品牌或品类现有的营销模式而取得成功。注:若案例没有清晰阐明营销模式对其品牌/ 品类的产生\n了怎样的变革，评委将酌情扣分。\n商业设计赛道 COMMERCIAL DESIGN\n该类别聚焦以设计创造真实商业价值，覆盖品牌从战略到落地、从产品到体验、从线上到线下的全链路设计实\n践。\n本赛道旨在表彰以设计为核心手段，在品牌构建、产品创新、数字体验、场景营销、内容传播、技术创新、长效\n经营及社会价值等维度实现策略清晰、创意卓越、效果可衡量的优秀案例，推动设计与商业目标深度融合，助力\n品牌长期增长与可持续发展。\n专项类",
+    "definition_shared_with": 123,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 123,
+    "name_zh": "生意增长  - 营销破局  - 服务",
+    "name_en": "Marketing Disruptors - Services",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "BUSINESS GROWTH",
+    "track_zh": "生意增长赛道",
+    "definition_zh": "该类别此类别旨在表彰通过驱动行业前进的营销模式变革，提升商业 /品牌增长的案例。任何类型的市场变局者都\n可以投报。详述营销挑战，竞争环境，以及如何通过改变品牌/品类现有的营销式而取得成功。参赛案例应当详细\n说明如何通过改变品牌或品类现有的营销模式而取得成功。注:若案例没有清晰阐明营销模式对其品牌/ 品类的产生\n了怎样的变革，评委将酌情扣分。\n商业设计赛道 COMMERCIAL DESIGN\n该类别聚焦以设计创造真实商业价值，覆盖品牌从战略到落地、从产品到体验、从线上到线下的全链路设计实\n践。\n本赛道旨在表彰以设计为核心手段，在品牌构建、产品创新、数字体验、场景营销、内容传播、技术创新、长效\n经营及社会价值等维度实现策略清晰、创意卓越、效果可衡量的优秀案例，推动设计与商业目标深度融合，助力\n品牌长期增长与可持续发展。\n专项类",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type"
+    ]
+   },
+   {
+    "number": 124,
+    "name_zh": "商业设计  – 品牌视觉",
+    "name_en": "Brand Visual Identity Design",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "COMMERCIAL DESIGN",
+    "track_zh": "商业设计赛道",
+    "definition_zh": "该类别表彰从品牌战略出发，以品牌主视觉为核心，构建统一、可识别的核心视觉与符号体系。涵盖品牌符号、\n品牌标识（Logo ）、色彩系统、标准字体、品牌 IP 形象、主视觉版式规范及其他核心视觉资产，为品牌传播中奠\n定一致的视觉基础，强化用户认知与记忆，支撑品牌长期战略落地。成果部分建议以品牌资产增值、溢价能力提\n升、渠道接受度、视觉识别度、用户记忆度等维度进行展开叙述，以体现设计作品的实效价值与商业价值。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "design_or_data_is_core"
+    ]
+   },
+   {
+    "number": 125,
+    "name_zh": "商业设计  – 平面",
+    "name_en": "Graphic Design",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "COMMERCIAL DESIGN",
+    "track_zh": "商业设计赛道",
+    "definition_zh": "该类别表彰通过平面或视听媒介实现价值传递的设计创作。涵盖品牌平面物料（海报、画册、导视等）与音视频\n内容（广告、动画、播客等），参赛作品须强化品牌识别、提升传播效率与商业转化。所有参赛案例必须说明设\n计创新与实际成果，清晰阐明如何以设计为核心实现多渠道价值传递，成果部分建议以信息触达、品牌识别、转\n化提升等维度展开叙述，体现设计的实效与商业价值。",
+    "definition_shared_with": 126,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "design_or_data_is_core"
+    ]
+   },
+   {
+    "number": 126,
+    "name_zh": "商业设计  – 视听设计",
+    "name_en": "Video and Audio Design",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "COMMERCIAL DESIGN",
+    "track_zh": "商业设计赛道",
+    "definition_zh": "该类别表彰通过平面或视听媒介实现价值传递的设计创作。涵盖品牌平面物料（海报、画册、导视等）与音视频\n内容（广告、动画、播客等），参赛作品须强化品牌识别、提升传播效率与商业转化。所有参赛案例必须说明设\n计创新与实际成果，清晰阐明如何以设计为核心实现多渠道价值传递，成果部分建议以信息触达、品牌识别、转\n化提升等维度展开叙述，体现设计的实效与商业价值。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "design_or_data_is_core"
+    ]
+   },
+   {
+    "number": 127,
+    "name_zh": "商业设计  – 产品与包装",
+    "name_en": "Product & Packaging Design",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "COMMERCIAL DESIGN",
+    "track_zh": "商业设计赛道",
+    "definition_zh": "该类别表彰聚焦产品全生命周期的设计表达，包括实体产品设计（如智能座舱、家电家居、个人用品等）与商业\n销售包装设计（含食品  / 饮品、电子产品、美妆日化、奢侈品、文创礼品等品类）。所有包装作品需为带有条形\n码或销售标识符的商业销售品，通过设计提升产品吸引力、用户体验与市场竞争力。成果部分建议以购买转化\n率、生产 / 物流成本优化等维度进行展开叙述，以体现设计作品的实效价值与商业价值。",
+    "definition_shared_with": null,
+    "special_rules": [
+     {
+      "rule": "requires_barcode_or_sales_identifier",
+      "value": true,
+      "note": "包装作品需为带有条形码或销售标识符的商业销售品"
+     }
+    ],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "design_or_data_is_core"
+    ]
+   },
+   {
+    "number": 128,
+    "name_zh": "商业设计  – 场景体验",
+    "name_en": "Experiential Design",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "COMMERCIAL DESIGN",
+    "track_zh": "商业设计赛道",
+    "definition_zh": "该类别表彰通过线下场景搭建或沉浸式体验设计，创造品牌与用户深度互动的空间。包括品牌空间、装置设计、\n快闪店、场馆展览、舞台效果、主题乐园、文旅项目等，以感官体验强化品牌记忆，实现场景化营销与用户情感\n连接。成果部分建议以现场客流、社媒曝光量、体验后转化率等维度进行展开叙述，以体现设计作品的实效价值\n与商业价值。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "design_or_data_is_core"
+    ]
+   },
+   {
+    "number": 129,
+    "name_zh": "商业设计  – 内容与传播创意",
+    "name_en": "Content & Communication Design",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "COMMERCIAL DESIGN",
+    "track_zh": "商业设计赛道",
+    "definition_zh": "该类别表彰以品牌传播为核心，通过多元内容形式实现创意表达与价值传递。涵盖平面设计（海报、印刷物）、\n商业插画、视听设计（商业片、商业动画、音频播客）、娱乐设计（影视综艺、游戏等线上内容）及整合设计项\n目（三种及以上传播渠道），以艺术化、专业化的设计赋能品牌传播。成果部分建议以信息触达效率、社交分享\n率、ROI 等维度进行展开叙述，以体现设计作品的实效价值与商业价值。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "design_or_data_is_core"
+    ]
+   },
+   {
+    "number": 130,
+    "name_zh": "商业设计  – 商业影响",
+    "name_en": "Business Impact",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "COMMERCIAL DESIGN",
+    "track_zh": "商业设计赛道",
+    "definition_zh": "表彰设计产品所产生的商业影响及商业效果，通过设计方法来优化、创新商业策略所映射出的产品体系。洞察出\n商业规划所衍生的业务需求，通过设计方法来改善、创新各类需求进入市场的方式，进而推动企业的发展。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "design_or_data_is_core"
+    ]
+   },
+   {
+    "number": 131,
+    "name_zh": "商业设计  – 社会价值与可持续发展",
+    "name_en": "Social Value & Sustainable Development",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "COMMERCIAL DESIGN",
+    "track_zh": "商业设计赛道",
+    "definition_zh": "该类别表彰以设计推动社会正向改变，平衡商业目标与社会价值。表彰将 ESG 理念融入商业设计（如可回收包\n装、公益传播设计、无障碍体验设计），并通过该设计为品牌赢得声誉、触达新客群、实现商业闭环、传递品牌\n长期价值，达成品牌与社会共生共荣的案例。成果部分建议以品牌美誉度提升、目标客群增长、社会影响力量化\n等维度进行展开叙述，以体现设计作品的实效价值与商业价值。\n数据智能营销赛道  Data Intelligence Marketing\n本赛道表彰以数据为核心驱动力，表彰将精密数据科学、战略洞察与卓越创意相融合，从而创造突破性体验并产\n生可衡量的商业影响的作品。\n作品应展现如何通过预测建模、行为分析、实时个性化或算法创意等先进数据方法，实现深度数据洞察、效率提\n升与商业增长。聚焦数据技术的深度应用，强调数据在商业分析、营销测量、媒介策略、用户运营、电商转化及\n企业数字化转型中的实效价值\n专项类",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "design_or_data_is_core"
+    ]
+   },
+   {
+    "number": 132,
+    "name_zh": "数据策略",
+    "name_en": "Data Strategy",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "DATA INTELLIGENCE MARKETING",
+    "track_zh": "数据智能营销赛道",
+    "definition_zh": "表彰通过数据分析，定义导向目标受众、创意信息、渠道选择或品牌定位策略的作品。数据策略是该营销作品的\n起点及唯一重点，作品应关注市场趋势预判、营销效果归因及数据可视化呈现，将复杂数据转化为可执行的营销\n指论。\n无论是基于一方数据的用户研究，还是结合三方数据的行业分析，均需体现数据策略对营销作品的直接影响与量\n化价值。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "design_or_data_is_core"
+    ]
+   },
+   {
+    "number": 133,
+    "name_zh": "数据洞察与测量",
+    "name_en": "Data Insights and Measurement",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "DATA INTELLIGENCE MARKETING",
+    "track_zh": "数据智能营销赛道",
+    "definition_zh": "表彰审慎且巧妙地运用数据洞察与营销测量技术，完善商业与营销活动，并对企业绩效产生真实、可量化影响的\n作品。作品需系统呈现从数据洞察到策略落地的全链路闭环：既包含对流量、转化率、品牌知名度、认知度、考\n虑度等核心指标的科学测量，也需清晰展示如何通过归因分析、数据可视化等手段，持续优化营销活动，最终实\n现业务增长与品牌价值提升。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "design_or_data_is_core"
+    ]
+   },
+   {
+    "number": 134,
+    "name_zh": "营销技术工具创新",
+    "name_en": "Marketing  Technology & Tools Innovation",
+    "kind": "specialty",
+    "section_zh": "战略赛道",
+    "track_id": "DATA INTELLIGENCE MARKETING",
+    "track_zh": "数据智能营销赛道",
+    "definition_zh": "表彰企业或技术服务商面向营销场景自主研发的数据技术平台与工具产品的创新实践。参赛案例需以营销数据为\n核心资产，通过产品化、平台化的技术载体，实现数据应用的自动化、智能化与规模化。案例需清晰呈现工具的\n核心功能架构、数据应用逻辑及与业务体系的深度融合路径，证明该工具已实际应用于营销业务场景，并量化展\n示在运营效率提升、成本结构优化或业务场景拓展等方面的实效成果与商业价值。",
+    "definition_shared_with": null,
+    "special_rules": [],
+    "judging_dimensions": [
+     "core_business_problem",
+     "strategy_mechanism",
+     "primary_outcome",
+     "evidence_type",
+     "design_or_data_is_core"
+    ]
+   }
+  ]
+ },
+ "other_awards": {
+  "EFFIE_PRA": {
+   "award_id": "EFFIE_PRA",
+   "source_document": "2026艾菲公关奖_PRA_类别定义.pdf",
+   "source_sha256": "6af7d13215d15552187a0e25ecf117a816653b46cf3c3538dd13bbbceae80364",
+   "official_count_claimed": [
+    28,
+    44
+   ],
+   "categories_found": 42,
+   "max_number": 44,
+   "sequence_continuity": 0.955,
+   "verification_status": "VERIFIED",
+   "categories": [
+    {
+     "number": 1,
+     "name_zh": "农业、工业和建筑"
+    },
+    {
+     "number": 2,
+     "name_zh": "美容和美妆"
+    },
+    {
+     "number": 3,
+     "name_zh": "饮料-酒精"
+    },
+    {
+     "number": 4,
+     "name_zh": "饮料-非酒精-非碳酸"
+    },
+    {
+     "number": 5,
+     "name_zh": "饮料-非酒精-碳酸"
+    },
+    {
+     "number": 6,
+     "name_zh": "文化和艺术"
+    },
+    {
+     "number": 7,
+     "name_zh": "物流和配送"
+    },
+    {
+     "number": 8,
+     "name_zh": "教育和培训"
+    },
+    {
+     "number": 9,
+     "name_zh": "娱乐、休闲和消遣"
+    },
+    {
+     "number": 10,
+     "name_zh": "时尚和配饰"
+    },
+    {
+     "number": 11,
+     "name_zh": "金融和保险"
+    },
+    {
+     "number": 12,
+     "name_zh": "食品"
+    },
+    {
+     "number": 13,
+     "name_zh": "电子游戏与电竞"
+    },
+    {
+     "number": 14,
+     "name_zh": "政府和公共服务"
+    },
+    {
+     "number": 15,
+     "name_zh": "家居和家电用品"
+    },
+    {
+     "number": 16,
+     "name_zh": "家庭清洁护理"
+    },
+    {
+     "number": 17,
+     "name_zh": "媒体和娱乐公司"
+    },
+    {
+     "number": 18,
+     "name_zh": "个人护理"
+    },
+    {
+     "number": 19,
+     "name_zh": "宠物护理"
+    },
+    {
+     "number": 20,
+     "name_zh": "专业服务"
+    },
+    {
+     "number": 21,
+     "name_zh": "餐饮"
+    },
+    {
+     "number": 22,
+     "name_zh": "零售"
+    },
+    {
+     "number": 23,
+     "name_zh": "智能硬件"
+    },
+    {
+     "number": 24,
+     "name_zh": "零食和甜点"
+    },
+    {
+     "number": 25,
+     "name_zh": "社会团队和非营利机构"
+    },
+    {
+     "number": 26,
+     "name_zh": "软件和应用程序"
+    },
+    {
+     "number": 27,
+     "name_zh": "电信"
+    },
+    {
+     "number": 28,
+     "name_zh": "交通运输"
+    },
+    {
+     "number": 29,
+     "name_zh": "整合数字营销"
+    },
+    {
+     "number": 30,
+     "name_zh": "人工智能（AI）"
+    },
+    {
+     "number": 31,
+     "name_zh": "互动社群"
+    },
+    {
+     "number": 32,
+     "name_zh": "直接面向消费者（DTC）"
+    },
+    {
+     "number": 33,
+     "name_zh": "意见领袖"
+    },
+    {
+     "number": 34,
+     "name_zh": "社交媒体"
+    },
+    {
+     "number": 35,
+     "name_zh": "电子商务"
+    },
+    {
+     "number": 38,
+     "name_zh": "青年营销"
+    },
+    {
+     "number": 39,
+     "name_zh": "银发群体"
+    },
+    {
+     "number": 40,
+     "name_zh": "内部沟通"
+    },
+    {
+     "number": 41,
+     "name_zh": "企业形象、沟通和声誉管理"
+    },
+    {
+     "number": 42,
+     "name_zh": "雇主品牌塑造"
+    },
+    {
+     "number": 43,
+     "name_zh": "企业领导人声誉管理"
+    },
+    {
+     "number": 44,
+     "name_zh": "新产品/服务推广"
+    }
+   ],
+   "limitation": ""
+  },
+  "EFFIE_SUSTAIN": {
+   "award_id": "EFFIE_SUSTAIN",
+   "source_document": "2026艾菲可持续发展奖_参赛类别.pdf",
+   "source_sha256": "8daa41fb9ba8101b7201ad7a0ab7e441038dd3f29d5092c65447264ed752e04f",
+   "official_count_claimed": [
+    22,
+    43
+   ],
+   "categories_found": 40,
+   "max_number": 43,
+   "sequence_continuity": 0.93,
+   "verification_status": "VERIFIED",
+   "categories": [
+    {
+     "number": 1,
+     "name_zh": "休闲和消遣"
+    },
+    {
+     "number": 2,
+     "name_zh": "金融和保险"
+    },
+    {
+     "number": 3,
+     "name_zh": "餐饮"
+    },
+    {
+     "number": 4,
+     "name_zh": "电子产品"
+    },
+    {
+     "number": 5,
+     "name_zh": "电子游戏"
+    },
+    {
+     "number": 6,
+     "name_zh": "个人和家庭清洁护理"
+    },
+    {
+     "number": 8,
+     "name_zh": "家电和家居用品"
+    },
+    {
+     "number": 9,
+     "name_zh": "教育和培训"
+    },
+    {
+     "number": 10,
+     "name_zh": "零售"
+    },
+    {
+     "number": 11,
+     "name_zh": "媒体和娱乐公司"
+    },
+    {
+     "number": 12,
+     "name_zh": "美容和美妆"
+    },
+    {
+     "number": 13,
+     "name_zh": "配送服务"
+    },
+    {
+     "number": 14,
+     "name_zh": "软件"
+    },
+    {
+     "number": 15,
+     "name_zh": "时尚和配饰"
+    },
+    {
+     "number": 16,
+     "name_zh": "食品饮料"
+    },
+    {
+     "number": 17,
+     "name_zh": "网络和电信"
+    },
+    {
+     "number": 18,
+     "name_zh": "文化和艺术"
+    },
+    {
+     "number": 19,
+     "name_zh": "政府和公共服务"
+    },
+    {
+     "number": 20,
+     "name_zh": "专业服务"
+    },
+    {
+     "number": 21,
+     "name_zh": "宠物护理"
+    },
+    {
+     "number": 22,
+     "name_zh": "母婴"
+    },
+    {
+     "number": 23,
+     "name_zh": "良好健康与福祉"
+    },
+    {
+     "number": 24,
+     "name_zh": "优质教育"
+    },
+    {
+     "number": 25,
+     "name_zh": "性别平等"
+    },
+    {
+     "number": 26,
+     "name_zh": "体面工作和经济增长"
+    },
+    {
+     "number": 27,
+     "name_zh": "可持续城市和社区"
+    },
+    {
+     "number": 29,
+     "name_zh": "气候行动"
+    },
+    {
+     "number": 30,
+     "name_zh": "水下生物"
+    },
+    {
+     "number": 31,
+     "name_zh": "陆地生物"
+    },
+    {
+     "number": 32,
+     "name_zh": "资源再生与循环利用"
+    },
+    {
+     "number": 33,
+     "name_zh": "动物保护与福利"
+    },
+    {
+     "number": 34,
+     "name_zh": "乡村振兴"
+    },
+    {
+     "number": 35,
+     "name_zh": "文化传承"
+    },
+    {
+     "number": 36,
+     "name_zh": "人文和社会关怀"
+    },
+    {
+     "number": 37,
+     "name_zh": "员工关怀"
+    },
+    {
+     "number": 38,
+     "name_zh": "企业文化"
+    },
+    {
+     "number": 39,
+     "name_zh": "跨行业协作"
+    },
+    {
+     "number": 40,
+     "name_zh": "价值传递与行为改变"
+    },
+    {
+     "number": 41,
+     "name_zh": "技术赋能与科技向善"
+    },
+    {
+     "number": 43,
+     "name_zh": "母婴营销"
+    }
+   ],
+   "limitation": ""
+  },
+  "EFFIE_SCENARIO": {
+   "award_id": "EFFIE_SCENARIO",
+   "source_document": "2026艾菲场景营销奖_类别定义.pdf",
+   "source_sha256": "63b7921ce92398ffb079b57d8e74f8111b99c29485fd2ed4792e4f386b604fc9",
+   "official_count_claimed": [
+    16,
+    45
+   ],
+   "categories_found": 23,
+   "max_number": 41,
+   "sequence_continuity": 0.561,
+   "verification_status": "PARTIAL",
+   "categories": [
+    {
+     "number": 2,
+     "name_zh": "酒水饮料"
+    },
+    {
+     "number": 3,
+     "name_zh": "零售与百货"
+    },
+    {
+     "number": 4,
+     "name_zh": "时尚与配饰"
+    },
+    {
+     "number": 8,
+     "name_zh": "生活服务"
+    },
+    {
+     "number": 9,
+     "name_zh": "家居产品与服务"
+    },
+    {
+     "number": 15,
+     "name_zh": "金融与投资"
+    },
+    {
+     "number": 18,
+     "name_zh": "虚拟场景"
+    },
+    {
+     "number": 19,
+     "name_zh": "虚实场景"
+    },
+    {
+     "number": 20,
+     "name_zh": "休闲&生活"
+    },
+    {
+     "number": 23,
+     "name_zh": "全场景-产品"
+    },
+    {
+     "number": 24,
+     "name_zh": "全场景-服务"
+    },
+    {
+     "number": 25,
+     "name_zh": "新场景"
+    },
+    {
+     "number": 26,
+     "name_zh": "精准效果场景营销"
+    },
+    {
+     "number": 29,
+     "name_zh": "线下数字化场景营销"
+    },
+    {
+     "number": 30,
+     "name_zh": "持续性场景营销"
+    },
+    {
+     "number": 31,
+     "name_zh": "即时闪烁性场景营销"
+    },
+    {
+     "number": 32,
+     "name_zh": "电梯"
+    },
+    {
+     "number": 34,
+     "name_zh": "建筑外墙与灯箱UPDATED"
+    },
+    {
+     "number": 35,
+     "name_zh": "特殊媒体UPDATED"
+    },
+    {
+     "number": 37,
+     "name_zh": "场景体验-产品"
+    },
+    {
+     "number": 38,
+     "name_zh": "场景体验-服务"
+    },
+    {
+     "number": 40,
+     "name_zh": "泛娱乐营销"
+    },
+    {
+     "number": 41,
+     "name_zh": "跨界营销"
+    }
+   ],
+   "limitation": "OCR 抽取未达完整覆盖，类别清单不完整；使用该奖项类别时须让用户核对官方类别定义文件，不得推测缺失类别"
+  },
+  "EFFIE_CULTURE": {
+   "award_id": "EFFIE_CULTURE",
+   "source_document": "2026艾菲文旅奖_类别定义.pdf",
+   "source_sha256": "b03d533eaa82b125b6e4e1619d931cef01fafed22f23c60f22dc72e476e60fcd",
+   "official_count_claimed": [
+    29,
+    33
+   ],
+   "categories_found": 30,
+   "max_number": 33,
+   "sequence_continuity": 0.909,
+   "verification_status": "VERIFIED",
+   "categories": [
+    {
+     "number": 2,
+     "name_zh": "人文景观"
+    },
+    {
+     "number": 3,
+     "name_zh": "物质文化遗产"
+    },
+    {
+     "number": 5,
+     "name_zh": "主题乐园"
+    },
+    {
+     "number": 6,
+     "name_zh": "国家级"
+    },
+    {
+     "number": 7,
+     "name_zh": "省域级"
+    },
+    {
+     "number": 8,
+     "name_zh": "市域级"
+    },
+    {
+     "number": 9,
+     "name_zh": "县域级"
+    },
+    {
+     "number": 10,
+     "name_zh": "酒店及度假村"
+    },
+    {
+     "number": 11,
+     "name_zh": "餐饮"
+    },
+    {
+     "number": 12,
+     "name_zh": "出行"
+    },
+    {
+     "number": 13,
+     "name_zh": "金融"
+    },
+    {
+     "number": 14,
+     "name_zh": "户外装备"
+    },
+    {
+     "number": 16,
+     "name_zh": "娱乐"
+    },
+    {
+     "number": 17,
+     "name_zh": "赛事"
+    },
+    {
+     "number": 18,
+     "name_zh": "会展"
+    },
+    {
+     "number": 19,
+     "name_zh": "立创"
+    },
+    {
+     "number": 20,
+     "name_zh": "数字服务"
+    },
+    {
+     "number": 21,
+     "name_zh": "线下服务"
+    },
+    {
+     "number": 22,
+     "name_zh": "快消"
+    },
+    {
+     "number": 23,
+     "name_zh": "游戏"
+    },
+    {
+     "number": 24,
+     "name_zh": "消费电子"
+    },
+    {
+     "number": 25,
+     "name_zh": "互联网"
+    },
+    {
+     "number": 26,
+     "name_zh": "房地产"
+    },
+    {
+     "number": 27,
+     "name_zh": "研学实践"
+    },
+    {
+     "number": 28,
+     "name_zh": "康养旅居"
+    },
+    {
+     "number": 29,
+     "name_zh": "文旅+"
+    },
+    {
+     "number": 30,
+     "name_zh": "热点事件"
+    },
+    {
+     "number": 31,
+     "name_zh": "季节营鎖"
+    },
+    {
+     "number": 32,
+     "name_zh": "跨界合作"
+    },
+    {
+     "number": 33,
+     "name_zh": "社媒营销"
+    }
+   ],
+   "limitation": ""
+  },
+  "EFFIE_AUTO": {
+   "award_id": "EFFIE_AUTO",
+   "source_document": "2026艾菲汽车奖_类别定义.pdf",
+   "source_sha256": "fcf3ca7273d347ef48bdfe2b538f0b057792436b2895bb51aa592abe4eced1c2",
+   "official_count_claimed": [
+    42
+   ],
+   "categories_found": 36,
+   "max_number": 42,
+   "sequence_continuity": 0.857,
+   "verification_status": "PARTIAL",
+   "categories": [
+    {
+     "number": 1,
+     "name_zh": "乘用车-燃油"
+    },
+    {
+     "number": 2,
+     "name_zh": "乘用车-新能源"
+    },
+    {
+     "number": 3,
+     "name_zh": "商用车-燃油"
+    },
+    {
+     "number": 4,
+     "name_zh": "商用车-新能源"
+    },
+    {
+     "number": 5,
+     "name_zh": "汽车后市场-产品"
+    },
+    {
+     "number": 7,
+     "name_zh": "整合营销-产品"
+    },
+    {
+     "number": 8,
+     "name_zh": "整合营销-服务"
+    },
+    {
+     "number": 9,
+     "name_zh": "品牌内容-产品"
+    },
+    {
+     "number": 10,
+     "name_zh": "品牌内容-服务"
+    },
+    {
+     "number": 11,
+     "name_zh": "体验营销-现实"
+    },
+    {
+     "number": 12,
+     "name_zh": "体验营销-数字"
+    },
+    {
+     "number": 14,
+     "name_zh": "跨界营销"
+    },
+    {
+     "number": 15,
+     "name_zh": "泛娱乐营销"
+    },
+    {
+     "number": 16,
+     "name_zh": "体育营销"
+    },
+    {
+     "number": 17,
+     "name_zh": "热点事件"
+    },
+    {
+     "number": 18,
+     "name_zh": "公关营销"
+    },
+    {
+     "number": 19,
+     "name_zh": "品牌活化"
+    },
+    {
+     "number": 20,
+     "name_zh": "新产品/服务推广"
+    },
+    {
+     "number": 21,
+     "name_zh": "以弱胜强"
+    },
+    {
+     "number": 22,
+     "name_zh": "小预算"
+    },
+    {
+     "number": 23,
+     "name_zh": "品牌化增值服务"
+    },
+    {
+     "number": 24,
+     "name_zh": "时机营销"
+    },
+    {
+     "number": 25,
+     "name_zh": "企业声誉"
+    },
+    {
+     "number": 26,
+     "name_zh": "持续成功"
+    },
+    {
+     "number": 28,
+     "name_zh": "差异化营销"
+    },
+    {
+     "number": 29,
+     "name_zh": "场景营销"
+    },
+    {
+     "number": 30,
+     "name_zh": "青年营销"
+    },
+    {
+     "number": 33,
+     "name_zh": "社群营销UPDATED"
+    },
+    {
+     "number": 35,
+     "name_zh": "效果营销"
+    },
+    {
+     "number": 36,
+     "name_zh": "用户运营"
+    },
+    {
+     "number": 37,
+     "name_zh": "视频营销-短视频"
+    },
+    {
+     "number": 38,
+     "name_zh": "视频营销-长视频"
+    },
+    {
+     "number": 39,
+     "name_zh": "直播营销"
+    },
+    {
+     "number": 40,
+     "name_zh": "意见领袖营销"
+    },
+    {
+     "number": 41,
+     "name_zh": "社交媒体营销"
+    },
+    {
+     "number": 42,
+     "name_zh": "媒体创意"
+    }
+   ],
+   "limitation": "OCR 抽取未达完整覆盖，类别清单不完整；使用该奖项类别时须让用户核对官方类别定义文件，不得推测缺失类别"
+  },
+  "EFFIE_VIDEO": {
+   "award_id": "EFFIE_VIDEO",
+   "source_document": "2026艾菲视频营销奖_类别定义.pdf",
+   "source_sha256": "a25258fb57bd01258f0c603ddb2bb323f9891c7b60f5338fd1eb1d96439c8051",
+   "official_count_claimed": [],
+   "categories_found": 0,
+   "max_number": 0,
+   "sequence_continuity": 0,
+   "verification_status": "PARTIAL",
+   "categories": [],
+   "limitation": "OCR 抽取未达完整覆盖，类别清单不完整；使用该奖项类别时须让用户核对官方类别定义文件，不得推测缺失类别"
+  }
+ },
+ "specialty_tracks": {
+  "E-SPORTS_MARKETING": {
+   "zh": "电竞营销赛道",
+   "range": [
+    94,
+    105
+   ]
+  },
+  "PRIVATE_TRAFFIC": {
+   "zh": "私域营销赛道",
+   "range": [
+    106,
+    109
+   ]
+  },
+  "INFLUENCER_MARKETING": {
+   "zh": "红人营销赛道",
+   "range": [
+    110,
+    114
+   ]
+  },
+  "BUSINESS_GROWTH": {
+   "zh": "生意增长赛道",
+   "range": [
+    115,
+    123
+   ]
+  },
+  "COMMERCIAL_DESIGN": {
+   "zh": "商业设计赛道",
+   "range": [
+    124,
+    131
+   ]
+  },
+  "DATA_INTELLIGENCE_MARKETING": {
+   "zh": "数据智能营销赛道",
+   "range": [
+    132,
+    134
+   ]
+  }
+ }
+}
