@@ -1,3 +1,33 @@
+# V1.2.0 — Human-in-the-Loop Effectiveness Intelligence
+
+发布日期：2026-11-25 · 发布等级：Controlled Beta（正式生产发布 NO-GO）
+
+## 新增能力
+
+- **本地资料工作台**：`scripts/human_review.py intake` 从 PPTX、PDF、DOCX、XLSX、TXT、Markdown、CSV、JSONL 提取有限文本片段，保留原件位置与 SHA-256；无 OCR，扫描件与复杂版式需人工处理。
+- **候选与人工草稿意见**：候选片段不会自动成为事实；人工可用 `ACCEPT_FOR_DRAFT`、`REJECT`、`NEEDS_EVIDENCE` 记录决定与理由，记录本身不是身份认证。
+- **上下文警示与冲突检测**：提示预测、虚构、非实际结果等风险；识别口径、期间、指标、单位、分母完全一致的结构化记录冲突。
+- **目标与成果对照**：检查目标值、设定日期、方向、期间与实际结果，不隐瞒未达标。
+- **审阅 DOCX 回查**：导出带字段标识的审阅稿，并对正文做反向比对；仅支持本工具生成的文档，不等同官方参赛表。
+- **多维预检**：分别呈现技术一致性、证据可信性、专业竞争力、交付合规性；`validate_submission.py` 最高状态为 `HUMAN_REVIEW_REQUIRED`，`submission_authorized` 恒为 `false`，CLI 退出码固定非零。
+
+## 工程验证
+
+- `python3 tests/run_all.py --json`：152/152 PASS，退出码 0（64 历史工程测试 + 12 合成场景 + 76 回归）。
+- 原始 RC 攻击脚本复跑 10 个输入，全部 `submission_authorized=false`；明细见 `docs/V120_RC_REPLAY.json`。
+
+## 仓库与品牌
+
+- 新增 1280×640 品牌封面 `assets/social-preview.png`。
+- README 重构并新增英文版 `README_EN.md`；补齐 `SECURITY.md`、`CONTRIBUTING.md`、`CODE_OF_CONDUCT.md`、`CITATION.cff`、`.gitignore`、GitHub Issue / PR 模板与 CI。
+
+## 未验证与限制
+
+- 真实专业盲测、授权客户完整项目、宿主兼容性与人工效率均未独立验证。
+- 规则仍为继承的 2026 快照，未全量复核官方原文。
+- 专业竞争力不由脚本评分；当前工作台为 CLI，无 GUI。
+- 旧示例与历史 Schema 可能尚未迁移至全部新契约。
+
 # V1.1.1 — Semantic Integrity & Lean Architecture
 
 - 正式登记仅 FACT/CALC；未证声明与推断留在 draft_hypotheses。
@@ -376,7 +406,3 @@ v1.0.3 的触发词是「术语列表」：`类别匹配、报奖诊断、实效
 ### 发布状态
 
 BETA — 见 `docs/PRODUCTION_READINESS.md`
-
-## V1.2.0 — Human-in-the-Loop Effectiveness Intelligence
-
-新增本地资料工作台、候选片段与人工草稿意见、原件上下文警示及同口径冲突检测、目标结果比较、审阅DOCX回查、多维预检。旧门禁保留作技术层；最终状态不授权提交。真实专业能力仍待独立盲测。

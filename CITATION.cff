@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use or reference this software, please cite it as below."
+title: "Effie Entry Expert (艾菲奖报奖顾问)"
+abstract: >-
+  An independent, third-party AI Skill for Effie Awards entry strategy and
+  marketing effectiveness analysis. It combines professional workflows, a 2026
+  rules snapshot, deterministic local checks, and human-in-the-loop review.
+  It is not an official Effie product and does not grant submission
+  authorization or guarantee award outcomes. The MIT license applies to
+  original code, scripts, schemas, and workflows only; official rules and
+  category definitions remain the property of their respective owners.
+authors:
+  - name: "QOMOB.AI"
+    website: "https://qomob.ai"
+version: 1.2.0
+date-released: 2026-11-25
+url: "https://github.com/qomob/Effie"
+repository-code: "https://github.com/qomob/Effie"
+license: MIT
+keywords:
+  - effie-awards
+  - ai-skill
+  - marketing-effectiveness
+  - marketing-strategy
+  - award-submission
+  - evidence-verification
+  - attribution-analysis
+  - human-in-the-loop
+  - skillbuddy
+  - qomob

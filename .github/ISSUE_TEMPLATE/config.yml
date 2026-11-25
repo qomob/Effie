@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全问题报告
+    url: https://github.com/qomob/Effie/security/advisories/new
+    about: 请勿用公开 Issue 报告安全漏洞，使用私密漏洞报告通道。
+  - name: SkillBuddy
+    url: https://skillbuddy.dev
+    about: 了解 SkillBuddy 的 Skill 工程化能力。
+  - name: QOMOB.AI
+    url: https://qomob.ai
+    about: 开发者与产品信息。

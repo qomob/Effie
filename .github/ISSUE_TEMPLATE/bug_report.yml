@@ -1,0 +1,65 @@
+name: Bug Report
+description: 报告可复现的缺陷或错误行为
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请勿在 Issue 中粘贴真实客户资料、密钥或未公开商业数据。安全问题请按 SECURITY.md 私下报告。
+  - type: input
+    id: version
+    attributes:
+      label: 版本或 Commit
+      description: 例如 v1.2.0 或具体 Commit SHA
+      placeholder: v1.2.0
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 运行环境
+      description: 操作系统、Python 版本、是否安装 ffmpeg/ffprobe
+      placeholder: macOS 15 / Python 3.12 / ffmpeg 7.0
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请给出可直接执行的最小步骤或命令
+      placeholder: |
+        1. python3 scripts/...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+      description: 请附完整报错或输出，先自行脱敏
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: 测试结果
+      description: 是否运行过 python3 tests/run_all.py --json，以及结果
+      placeholder: "total 152, passed 152, exit 0"
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: 确认
+      options:
+        - label: 我已移除客户资料、密钥与个人信息
+          required: true
+        - label: 这不是安全漏洞（安全问题按 SECURITY.md 私下报告）
+          required: true
