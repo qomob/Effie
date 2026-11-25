@@ -269,6 +269,17 @@ python tests/run_all.py --json
 
 下一阶段聚焦真实客户工作流，而非无止境增加校验模块：混合资料端到端实验、四组公平模型对照、独立专业人员盲评，以及资料整理、核验与返工时间测量。具体协议见 [盲评方案](docs/BLIND_EVALUATION_PROTOCOL.md)。
 
+## 相关链接与社群
+
+| 站点 | 地址 |
+| --- | --- |
+| SkillBuddy | https://skillbuddy.dev/ |
+| Qomob.AI | https://qomob.ai/ |
+
+扫码加入社群交流：
+
+<img src="https://skillbuddy.dev/assets/community-qr.png" alt="SkillBuddy 社群二维码" width="220">
+
 ## 许可与声明
 
 代码、脚本、Schema、工作流与自创方法论按原包 [LICENSE](LICENSE) 中的 MIT 条款使用。官方规则、类别定义、字段说明及商标属于相应权利人，不因此获得 MIT 授权；包中包含实质性规则摘录，公开发布或再分发前应评估引用许可及著作权风险。详见 [第三方声明](THIRD_PARTY_NOTICES.md)。
